@@ -1,0 +1,18 @@
+SUMMARY OUTPUT;;;;;;;;
+;;;;;;;;
+Regression Statistics;;;;;;;;
+Multiple R;0,948159493;;;;;;;
+R Square;0,899006425;;;;;;;
+Adjusted R Square;0,898928014;;;;;;;
+Standard Error;0,003025874;;;;;;;
+Observations;1290;;;;;;;
+;;;;;;;;
+ANOVA;;;;;;;;
+;df;SS;MS;F;Significance F;;;
+Regression;1;0,104975153;0,104975153;11465,28652;0;;;
+Residual;1288;0,011792815;9,15591E-06;;;;;
+Total;1289;0,116767968;;;;;;
+;;;;;;;;
+;Coefficients;Standard Error;t Stat;P-value;Lower 95%;Upper 95%;Lower 95,0%;Upper 95,0%
+Intercept;0,00;8,43884E-05;0,907322942;0,364405763;-8,89863E-05;0,000242121;-8,89863E-05;0,000242121
+;0,899614324;0,008401637;107,0760782;0;0,88313193;0,916096718;0,88313193;0,916096718

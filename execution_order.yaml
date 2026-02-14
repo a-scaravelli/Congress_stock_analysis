@@ -1,0 +1,62 @@
+execution_plan:
+  - step: 1
+    script: "download_quant_files.py"
+    action: "Downloads bulk congressional trading data from the QuiverQuant API and saves it locally."
+    requirements:
+      - "quiverquant.json (Must contain valid 'Authorization Token')"
+    outputs:
+      - "politician_trades_data/congress_trades_full.parquet"
+      - "politician_trades_data/congress_trades_full.csv"
+
+  - step: 2
+    script: "extract_stock_data.py"
+    action: "Reads the trade data, identifies unique tickers, and downloads historical price data for each from Yahoo Finance."
+    requirements:
+      - "politician_trades_data/congress_trades_full.parquet (Output from Step 1)"
+    outputs:
+      - "stock_data/metadata.json"
+      - "stock_data/parquet_files/{ticker}.parquet"
+
+  - step: 3
+    script: "stock_performance_analysis.py"
+    action: "Calculates stock performance (alpha vs S&P 500) for specific trade dates using the downloaded price history."
+    requirements:
+      - "politician_trades_data/congress_trades_full.parquet (Output from Step 1)"
+      - "stock_data/parquet_files/ (Output from Step 2)"
+    outputs:
+      - "politician_trades_data/stock_performance_analysis.csv"
+
+  - step: 4
+    script: "committes_data_extractor.py"
+    action: "Scrapes historical committee membership data from the unitedstates/congress-legislators GitHub repository."
+    requirements:
+      - "Internet access (GitHub API token recommended in script to avoid rate limits)"
+    outputs:
+      - "committee_history/YYYY-MM-DD_SHA_committee-membership.yaml"
+
+  - step: 5
+    script: "get_stock_informations.py"
+    action: "Enriches the stock metadata with Sector and Industry classifications using yahooquery."
+    requirements:
+      - "stock_data/metadata.json (Output from Step 2)"
+    outputs:
+      - "stock_data/metadata_enriched.json"
+
+  - step: 6
+    script: "MANUAL STEP"
+    action: "Manually create a mapping file that defines which industries/sectors are relevant to specific congressional committees."
+    requirements:
+      - "User knowledge of committee jurisdictions"
+    outputs:
+      - "commette_industry_map.yaml"
+
+  - step: 7
+    script: "industry_matching.py"
+    action: "Integrates all datasets to flag trades where a politician traded stocks within their committee's jurisdiction."
+    requirements:
+      - "politician_trades_data/stock_performance_analysis.csv (Output from Step 3)"
+      - "stock_data/metadata_enriched.json (Output from Step 5)"
+      - "committee_history/ (Output from Step 4)"
+      - "commette_industry_map.yaml (Output from Step 6)"
+    outputs:
+      - "politician_trades_enriched.csv"

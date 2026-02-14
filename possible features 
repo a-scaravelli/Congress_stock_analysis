@@ -1,0 +1,10 @@
+- number of buys in the last N months (1,3,6)
+- number of trades done by a member in the same sector
+- number of trades done by a member in the same state
+- number of sold in the last N months (1,3,6)
+- % growth between buying date and disclosure
+- performance of the ticker
+- get information about the ticker (sector, country, financial data ?)
+- overall performance of the buyer / performance of the other holder
+
+- government data (any meeting related to that)
