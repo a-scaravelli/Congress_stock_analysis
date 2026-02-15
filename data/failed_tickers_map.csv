@@ -1,0 +1,587 @@
+ticker,category,date,trade_count,notes
+BRK.B,YFINANCE_ISSUE,,411,Berkshire Hathaway trades as BRK-B on yfinance (handled by mapping)
+WBA,WENT_PRIVATE,2024-12-23,157,Walgreens Boots Alliance taken private by Sycamore Partners
+FI,YFINANCE_ISSUE,,138,Fiserv currently trades as FI on NYSE (formerly FISV)
+FEYE,ACQUIRED_PUBLIC,2022-10-11,109,Acquired by Google/Mandiant (GOOG)
+CBS,MERGED,2019-12-04,106,Merged with Viacom to form ViacomCBS (now PARA)
+TWTR,WENT_PRIVATE,2022-10-27,102,Twitter acquired by Elon Musk / X Corp
+BLL,YFINANCE_ISSUE,,60,Ball Corporation still trades as BLL on NYSE
+CONN,BANKRUPT,2024-07-23,57,Conn's filed Chapter 11 bankruptcy
+SKX,WENT_PRIVATE,2025-07-15,49,Skechers taken private by 3G Capital
+CATM,ACQUIRED_PUBLIC,2020-06-01,46,Cardtronics acquired by NCR Corporation (NCR)
+VBTX,YFINANCE_ISSUE,,46,Veritex Holdings still trades as VBTX on NASDAQ
+VSM,ACQUIRED_PUBLIC,2019-10-07,45,Versum Materials acquired by Merck KGaA (private)
+JWN,WENT_PRIVATE,2025-03-24,44,Nordstrom taken private by Nordstrom family & El Puerto de Liverpool
+PKI,TICKER_CHANGED,2023-03-13,43,"PerkinElmer renamed to Revvity, ticker changed to RVTY"
+PSXP,MERGED,2021-03-19,42,Phillips 66 Partners merged into Phillips 66 (PSX)
+DNB,YFINANCE_ISSUE,,40,Dun & Bradstreet trades as DNB on NYSE - likely yfinance issue
+POT,MERGED,2018-01-01,38,Potash Corp merged with Agrium to form Nutrien (NTR)
+SIVB,BANKRUPT,2023-03-10,36,"Silicon Valley Bank seized by FDIC, sold to First Citizens (FCNCA)"
+CTXS,ACQUIRED_PRIVATE,2022-09-30,35,Citrix acquired by Vista Equity Partners & Evergreen Coast Capital
+NLSN,ACQUIRED_PRIVATE,2022-10-11,35,Nielsen acquired by Evergreen Coast Capital & Brookfield
+PBFX,MERGED,2024-10-01,35,PBF Logistics merged into PBF Energy (PBF)
+SGH,YFINANCE_ISSUE,,35,SMART Global Holdings still trades as SGH
+VSLR,MERGED,2020-10-05,35,Vivint Solar merged into Sunrun (RUN)
+DISH,MERGED,2024-12-31,34,DISH Network merged into EchoStar (SATS)
+WPZ,MERGED,2018-08-13,34,Williams Partners merged into Williams Companies (WMB)
+AVP,ACQUIRED_PUBLIC,2020-01-03,33,Avon Products acquired by Natura & Co (NTCO)
+CDK,ACQUIRED_PRIVATE,2022-07-06,33,CDK Global acquired by Brookfield Business Partners
+LSXMK,MERGED,2024-09-09,33,Liberty SiriusXM restructured into Sirius XM (SIRI)
+ETE,MERGED,2018-10-19,32,Energy Transfer Equity merged into Energy Transfer (ET)
+ENBL,MERGED,2020-12-14,31,Enable Midstream merged into Energy Transfer (ET)
+XLNX,ACQUIRED_PUBLIC,2022-02-14,31,Xilinx acquired by AMD
+CLGX,ACQUIRED_PUBLIC,2021-06-16,28,CoreLogic acquired by Stone Point/Insight Partners (private)
+YNDX,WENT_PRIVATE,2024-07-15,28,"Yandex delisted, restructured as Nebius Group (NBIS)"
+ERJ,YFINANCE_ISSUE,,27,Embraer still trades as ERJ on NYSE
+HYH,YFINANCE_ISSUE,,26,Halyard Health - acquired by Owens & Minor (OMI) 2018
+NBLX,MERGED,2020-10-03,26,Noble Midstream merged into Chevron (CVX)
+VIAB,MERGED,2019,26,"Viacom merged with CBS December 4, 2019 to form ViacomCBS; Renamed Paramount Global February 2022; VIAB delisted from NYSE"
+SNE,TICKER_CHANGED,2021-04-01,25,Sony changed ticker from SNE to SONY
+WDR,ACQUIRED_PRIVATE,2021-04-30,25,Waddell & Reed acquired by Macquarie Asset Management
+CLR,WENT_PRIVATE,2022-11-22,24,Continental Resources taken private by Harold Hamm family
+CEQP,MERGED,2022-11-01,23,Crestwood Equity merged into Crestwood Midstream
+VIAC,MERGED,,23,CBS/Viacom merger created ViacomCBS trading under VIAC; Later rebranded to Paramount Global (PARA)
+HHC,YFINANCE_ISSUE,,22,Howard Hughes Corp trades as HHH after 2023 restructuring
+BKCC,YFINANCE_ISSUE,,21,BlackRock Capital Investment Corp - possibly delisted/OTC
+DPSGY,MERGED,2018-07-09,21,Dr Pepper Snapple merged into Keurig Dr Pepper (KDP)
+USG,ACQUIRED_PUBLIC,2019-04-15,21,USG acquired by Knauf (private German company)
+WFT,BANKRUPT,2019-07-01,21,Weatherford International filed Chapter 11 bankruptcy
+ADT,YFINANCE_ISSUE,,20,ADT Inc still trades - possible yfinance date range issue
+CTCT,ACQUIRED_PRIVATE,2015-07-01,20,Constant Contact acquired by Endurance International (private)
+EQM,MERGED,2020-06-17,20,EQT Midstream merged into Equitrans Midstream (ETRN)
+STOR,ACQUIRED_PRIVATE,2022-09-15,20,STORE Capital acquired by GIC/Oak Street (private)
+NGLS,MERGED,2016-02-17,19,Targa Resources Partners merged into Targa Resources Corp (TRGP)
+TUP,BANKRUPT,2024-09-17,19,Tupperware Brands filed Chapter 11 bankruptcy; delisted from NYSE
+VGR,ACQUIRED_PRIVATE,2025-05-01,19,Vector Group acquired by Japan Tobacco International for $15/share
+DEACU,SPAC_FAILED,2023-01-01,18,Dune Acquisition Corporation SPAC; failed to complete business combination
+PARA,ACQUIRED_PRIVATE,2025-07-07,18,Paramount Global acquired by Skydance Media (David Ellison)
+APU,MERGED,2019-04-02,17,AmeriGas Partners LP merged into parent UGI Corporation (UGI)
+CVET,ACQUIRED_PRIVATE,2022-01-01,17,Covetrus acquired by CD&R (Clayton Dubilier & Rice); taken private
+DCP,MERGED,2023-09-15,17,DCP Midstream Partners merged into Phillips 66 (PSX)
+RAI,ACQUIRED_PUBLIC,2017-07-25,17,Reynolds American acquired by British American Tobacco (BTI) for ~$49.4B
+ACT,TICKER_CHANGED,2014-06-01,16,Actavis changed ticker to AGN; later AbbVie (ABBV) acquired Allergan 2020
+AZSEY,ADR_FOREIGN,,16,"Likely foreign ADR (ends in Y, 5+ chars)"
+LHCG,ACQUIRED_PUBLIC,2023-02-07,16,LHC Group acquired by UnitedHealth/Optum (UNH) for ~$5.4B
+LUKOY,ADR_FOREIGN,,16,"Likely foreign ADR (ends in Y, 5+ chars)"
+TLLP,MERGED,2018-11-08,16,Tesoro Logistics LP merged into Andeavor Logistics; later absorbed by MPC/MPLX
+ZAYO,WENT_PRIVATE,2020-03-09,16,Zayo Group taken private by Digital Colony & EQT Partners
+BERY,MERGED,2025-06-01,15,Berry Global Group merged with Amcor to form Amcor plc (AMCR)
+CIT,MERGED,2022-01-03,15,CIT Group merged into First Citizens BancShares (FCNCA)
+CMCSK,TICKER_CHANGED,2015-09-01,15,Comcast CMCSK (Class A Special) reclassified; trades as CMCSA
+GLOP,ACQUIRED_PRIVATE,2024-01-01,15,GasLog Partners acquired by GasLog (private)
+GMLP,ACQUIRED_PUBLIC,2021-04-15,15,Golar LNG Partners acquired by New Fortress Energy (NFE)
+REVB,BANKRUPT,2022-06-16,15,Revlon filed Chapter 11 bankruptcy
+SRLP,ACQUIRED_PRIVATE,2020-01-01,15,Sprague Resources LP taken private by Axel Johnson Inc
+SSBK,BANKRUPT,2023-03-12,15,Signature Bank seized by FDIC; third-largest US bank failure
+SYRG,MERGED,2017-10-05,15,Synergy Resources Corp merged into Centennial Resource Development
+TSS,MERGED,2019-09-18,15,Total System Services merged with Global Payments (GPN)
+BPMP,MERGED,2021-03-31,14,BP Midstream Partners merged into parent BP plc (BP)
+CBL,BANKRUPT,2020-11-01,14,CBL & Associates filed Chapter 11 bankruptcy
+CDAY,TICKER_CHANGED,2024-02-26,14,Ceridian HCM changed name to Dayforce Inc; ticker from CDAY to DAY
+CSLT,ACQUIRED_PRIVATE,2022-06-14,14,Castlight Health acquired by Vera Whole Health/Transcarent
+NUAN,ACQUIRED_PUBLIC,2022-03-04,14,Nuance Communications acquired by Microsoft (MSFT) for ~$19.7B
+AFSI,BANKRUPT,2018-12-01,13,"AmTrust Financial Services delisted, fraud investigation"
+AXLL,ACQUIRED_PUBLIC,2016-08-31,13,Axiall Corporation acquired by Westlake Chemical (WLK) for ~$3.8B
+EVBG,ACQUIRED_PRIVATE,2023-02-28,13,Everbridge acquired by Thoma Bravo for ~$1.5B
+JIH,MERGED,2021-06-08,13,Juniper Industrial Holdings SPAC merged with Janus International (JBI)
+KORS,TICKER_CHANGED,2019-01-02,13,Michael Kors renamed to Capri Holdings; ticker changed to CPRI
+PEGI,ACQUIRED_PRIVATE,2020-03-10,13,Pattern Energy acquired by Canada Pension Plan Investment Board
+SIRE,MERGED,2019-09-01,13,Sisecam Resources LP merged into parent Sisecam Chemicals
+WLL,BANKRUPT,2020-07-01,13,Whiting Petroleum filed Chapter 11; later merged into Chord Energy (CHRD)
+CLNC,TICKER_CHANGED,2021-08-01,12,Colony Credit Real Estate renamed to Brightspire Capital (BRSP)
+DNKN,ACQUIRED_PRIVATE,2020-12-15,12,Dunkin' Brands acquired by Inspire Brands (Roark Capital) for ~$11.3B
+GOGL,YFINANCE_ISSUE,,12,Golden Ocean Group still trades as GOGL on NASDAQ
+HCN,TICKER_CHANGED,2018-02-12,12,Health Care REIT renamed to Welltower; ticker changed to WELL
+NYCB,TICKER_CHANGED,2024-12-02,12,New York Community Bancorp rebranded to Flagstar Financial (FLG)
+PCRFY,ADR_FOREIGN,,12,"Likely foreign ADR (ends in Y, 5+ chars)"
+PLYA,ACQUIRED_PUBLIC,2025-03-01,12,Playa Hotels & Resorts acquired by Hyatt Hotels (H) for ~$2.6B
+RDSMY,ADR_FOREIGN,,12,"Likely foreign ADR (ends in Y, 5+ chars)"
+WMGI,ACQUIRED_PUBLIC,2020-11-11,12,Wright Medical Group acquired by Stryker (SYK) for ~$5.4B
+ANDX,MERGED,2018-10-01,11,Andeavor Logistics LP merged into MPLX LP (MPLX)
+CREE,TICKER_CHANGED,2021,11,"Cree renamed to Wolfspeed effective October 4, 2021; Changed ticker from CREE to WOLF; NOT delisted - transferred from Nasdaq to NYSE October 4, 2021"
+DBD,BANKRUPT,2023-06-01,11,Diebold Nixdorf filed Chapter 11 bankruptcy; old equity cancelled
+GRUB,ACQUIRED_PUBLIC,2021-06-15,11,Grubhub acquired by Just Eat Takeaway.com for ~$7.3B
+LOGM,WENT_PRIVATE,2020-08-31,11,LogMeIn taken private by Francisco Partners & Evergreen Coast Capital
+MTSC,ACQUIRED_PUBLIC,2021-12-01,11,MTS Systems acquired by Amphenol Corporation (APH) for ~$1.7B
+PDCO,ACQUIRED_PRIVATE,2025-01-01,11,Patterson Companies acquired by Patient Square Capital; taken private
+PS,ACQUIRED_PRIVATE,2021-04-06,11,Pluralsight acquired by Vista Equity Partners for ~$3.5B
+QRTEA,TICKER_CHANGED,2024-01-01,11,Qurate Retail Series A tracking stock retired in corporate restructuring
+ZUO,ACQUIRED_PRIVATE,2024-06-17,11,Zuora acquired by Silver Lake Partners
+COUP,ACQUIRED_PRIVATE,2023-02-13,10,Coupa Software acquired by Thoma Bravo
+FLXN,ACQUIRED_PUBLIC,2021-11-19,10,Flexion Therapeutics acquired by Pacira BioSciences (PCRX)
+PRAH,MERGED,2021-07-01,10,PRA Health Sciences merged with ICON plc (ICLR) in ~$12B deal
+SBNY,BANKRUPT,2023-03-12,10,Signature Bank seized by NYDFS/FDIC; deposits acquired by Flagstar
+SMLP,YFINANCE_ISSUE,,10,Summit Midstream Partners still trades as SMLP on NYSE
+TPX,YFINANCE_ISSUE,,10,Tempur Sealy International still trades as TPX on NYSE
+WAGE,ACQUIRED_PUBLIC,2019-08-30,10,WageWorks acquired by HealthEquity (HQY) for ~$2B
+WOOF,ACQUIRED_PRIVATE,2017-09-22,10,VCA Inc acquired by Mars Inc for ~$9.1B; taken private
+ZI,ACQUIRED_PRIVATE,2025-01-28,10,ZoomInfo acquired by private equity
+AMED,ACQUIRED_PUBLIC,2024-09-27,9,Amedisys acquired by UnitedHealth Group (Optum) for ~$3.3B
+CTRX,ACQUIRED_PUBLIC,2015-07-23,9,Catamaran Corporation acquired by UnitedHealth/OptumRx for ~$12.8B
+DPS,MERGED,2018-07-09,9,Dr Pepper Snapple merged with Keurig Green Mountain to form KDP
+GAS,ACQUIRED_PUBLIC,2016-07-01,9,AGL Resources acquired by Southern Company (SO) for ~$12B
+HRC,ACQUIRED_PUBLIC,2021-12-13,9,Hill-Rom Holdings acquired by Baxter International (BAX) for ~$12.5B
+MIK,WENT_PRIVATE,2021-06-22,9,Michaels Companies taken private by Apollo Global Management for ~$5B
+MTBC,TICKER_CHANGED,2021-07-01,9,MTBC Inc rebranded to CareCloud; ticker changed to CCLD
+NATI,ACQUIRED_PUBLIC,2023-10-02,9,National Instruments acquired by Emerson Electric (EMR) for ~$8.2B
+ORCC,TICKER_CHANGED,2023-01-01,9,Owl Rock Capital Corp changed ticker to OBDC (Blue Owl Capital)
+QTS,WENT_PRIVATE,2021-09-01,9,QTS Realty Trust taken private by Blackstone Infrastructure for ~$10B
+RGC,ACQUIRED_PUBLIC,2018-02-28,9,Regal Entertainment acquired by Cineworld Group for ~$5.8B
+SYNH,WENT_PRIVATE,2023-09-14,9,Syneos Health taken private by Elliott & Patient Square Capital for ~$7.1B
+VRM,BANKRUPT,2024-11-18,9,Vroom wound down ecommerce vehicle operations; ceased business
+AKRX,BANKRUPT,2020-05-20,8,Akorn filed Chapter 11 bankruptcy
+AUY,ACQUIRED_PUBLIC,2023-03-31,8,Yamana Gold acquired by Pan American Silver (PAAS) and Agnico Eagle (AEM)
+CHNG,ACQUIRED_PUBLIC,2022-10-03,8,Change Healthcare acquired by UnitedHealth Group (Optum) for ~$7.8B
+CLNY,TICKER_CHANGED,2022-06-22,8,Colony Capital rebranded to DigitalBridge Group; ticker changed to DBRG
+CRY,TICKER_CHANGED,2022-01-03,8,CryoLife rebranded to Artivion; ticker changed to AORT
+DDAIF,ADR_FOREIGN,,8,"Likely foreign OTC (ends in F, 5+ chars)"
+EV,ACQUIRED_PUBLIC,2021-03-01,8,Eaton Vance acquired by Morgan Stanley for ~$7B
+LABL,WENT_PRIVATE,2019-11-01,8,Multi-Color Corporation taken private by Platinum Equity for ~$2.5B
+LTD,TICKER_CHANGED,2013-02-01,8,Limited Brands changed ticker to LB; later became Bath & Body Works (BBWI)
+ORAN,YFINANCE_ISSUE,,8,Orange SA still trades; US ADR may have data retrieval issues
+PACW,MERGED,2023-11-30,8,PacWest Bancorp merged with Banc of California; trades as BANC
+PBCT,ACQUIRED_PUBLIC,2022-04-01,8,People's United Financial acquired by M&T Bank (MTB) for ~$7.6B
+ROLL,TICKER_CHANGED,2023-01-01,8,RBC Bearings ticker changed from ROLL to RBC; still trades
+RXN,MERGED,2022-11-01,8,Rexnord water segment merged with Zurn (ZWS); PMC into Regal Rexnord (RRX)
+SEP,MERGED,2019-01-01,8,Spectra Energy Partners LP merged into Enbridge (ENB)
+TLSYY,ADR_FOREIGN,,8,"Likely foreign ADR (ends in Y, 5+ chars)"
+TWKS,WENT_PRIVATE,2025-04-01,8,Thoughtworks taken private by Apax Partners for ~$1.75B
+VRTU,WENT_PRIVATE,2021-02-11,8,Virtusa Corporation taken private by Baring Private Equity Asia for ~$2B
+WBK,ADR_FOREIGN,2022-09-01,8,Westpac Banking delisted US ADR; still trades as WBC.AX on ASX
+WW,YFINANCE_ISSUE,,8,WW International (Weight Watchers) still trades but may have been delisted
+XON,YFINANCE_ISSUE,,8,Intrexon rebranded as Precigen (PGEN)
+BIF,YFINANCE_ISSUE,,7,Boulder Growth & Income Fund (closed-end fund); possible data issues
+CAB,ACQUIRED_PRIVATE,2017-09-25,7,Cabela's acquired by Bass Pro Shops (private) for ~$5.5B
+DNHBY,ADR_FOREIGN,,7,"Likely foreign ADR (ends in Y, 5+ chars)"
+DRQ,MERGED,2024-07-03,7,Dril-Quip merged with Innovex Downhole Solutions
+EPOKY,ADR_FOREIGN,,7,"Likely foreign ADR (ends in Y, 5+ chars)"
+GCI,MERGED,2019-11-19,7,Old Gannett merged with GateHouse Media/New Media Investment Group
+GFN,ACQUIRED_PUBLIC,2021-06-30,7,General Finance Corp acquired by WillScot Mobile Mini (WSC) for ~$1B
+KRFT,MERGED,2015-07-06,7,Kraft Foods Group merged with H.J. Heinz to form Kraft Heinz (KHC)
+LM,ACQUIRED_PUBLIC,2020-07-31,7,Legg Mason acquired by Franklin Templeton (BEN) for ~$4.5B
+LSXMA,MERGED,2024-09-09,7,Liberty SiriusXM tracking stock merged into SiriusXM Holdings (SIRI)
+NTT,ADR_FOREIGN,,7,Nippon Telegraph & Telephone; US ADR has data issues
+OAS,BANKRUPT,2020-09-30,7,Oasis Petroleum filed Ch.11; emerged then merged into Chord Energy (CHRD)
+POL,TICKER_CHANGED,2020-06-30,7,PolyOne Corporation rebranded to Avient; ticker changed to AVNT
+RP,WENT_PRIVATE,2021-04-22,7,RealPage taken private by Thoma Bravo for ~$10.2B
+SERV,TICKER_CHANGED,2018-10-01,7,ServiceMaster rebranded to Terminix (TMX); later acquired by Rentokil (RTO)
+SMFKY,ADR_FOREIGN,,7,"Likely foreign ADR (ends in Y, 5+ chars)"
+SWTX,ACQUIRED_PRIVATE,,7,Acquired by Merck KGaA. SpringWorks Therapeutics acquired by Merck KGaA in all-cash deal valued at $3.9B; Rare cancer therapies
+TELL,ACQUIRED_PUBLIC,2024-10-01,7,Tellurian/Driftwood LNG acquired by Woodside Energy (WDS) for ~$900M
+ULTI,WENT_PRIVATE,2019-05-03,7,Ultimate Software taken private by Hellman & Friedman for ~$11B; formed UKG
+UMPQ,MERGED,2023-03-01,7,Umpqua Holdings merged with Columbia Banking System; trades as COLB
+AAIC$B,YFINANCE_ISSUE,,6,Preferred share notation - may need format fix
+AAM$A,YFINANCE_ISSUE,,6,Preferred share notation - may need format fix
+AGU,MERGED,2018-01-01,6,Agrium merged with PotashCorp to form Nutrien (NTR)
+AHONY,ADR_FOREIGN,,6,"Likely foreign ADR (ends in Y, 5+ chars)"
+AY,WENT_PRIVATE,2024-06-17,6,Atlantica Sustainable Infrastructure taken private by Energy Capital Partners
+AZEK,ACQUIRED_PUBLIC,2024-10-28,6,AZEK Company acquired by James Hardie Industries (JHX) for ~$8.75B
+BKEP,ACQUIRED_PRIVATE,2022-11-01,6,Blueknight Energy Partners acquired by Atlas Point Energy (Ergon)
+BRKS,TICKER_CHANGED,2022-09-01,6,Brooks Automation rebranded to Azenta Inc; ticker changed to AZTA
+CAJ,ADR_FOREIGN,,6,Canon Inc ADR; possible yfinance data retrieval issues
+CPGX,MERGED,2019-12-31,6,Enbridge Income Fund Holdings merged into Enbridge (ENB)
+CTRP,TICKER_CHANGED,2019-10-29,6,Ctrip.com rebranded to Trip.com Group; ticker changed to TCOM
+EBSB,ACQUIRED_PUBLIC,2022-04-01,6,Meridian Bancorp (EBSB) acquired by Independent Bank Corp (INDB)
+ETRN,ACQUIRED_PUBLIC,2024-07-22,6,Equitrans Midstream acquired by EQT Corporation in all-stock deal
+FEI,ACQUIRED_PUBLIC,2016-09-19,6,FEI Company acquired by Thermo Fisher Scientific (TMO) for ~$4.2B
+HAYN,ACQUIRED_PUBLIC,2024-11-04,6,Haynes International acquired by Arconic Corporation
+IBKC,MERGED,2020-11-01,6,IBERIABANK merged with First Horizon National Corp (FHN)
+KPLTW,SPAC_FAILED,,6,Katapult Holdings warrants (SPAC-related); warrants expired/redeemed
+LLL,MERGED,2019-06-29,6,L3 Technologies merged with Harris Corp to form L3Harris (LHX)
+LPT,MERGED,2020-02-04,6,Liberty Property Trust merged into Prologis (PLD)
+LSI,ACQUIRED_PUBLIC,2014-05-06,6,LSI Corporation acquired by Avago Technologies (now AVGO) for ~$6.6B
+MDSO,ACQUIRED_PUBLIC,2019-10-01,6,Medidata Solutions acquired by Dassault Systemes for ~$5.8B
+MIC,WENT_PRIVATE,2022-04-01,6,Macquarie Infrastructure Corp internalized/wound down; delisted NYSE
+MRWSY,ADR_FOREIGN,,6,"Likely foreign ADR (ends in Y, 5+ chars)"
+NVEE,ACQUIRED_PRIVATE,2025-04-01,6,NV5 Global acquired by Acuren Corporation
+NYLD,TICKER_CHANGED,2018-08-06,6,NRG Yield rebranded to Clearway Energy; ticker changed to CWEN
+OKS,MERGED,2017-06-30,6,ONEOK Partners LP merged into parent ONEOK Inc (OKE)
+PDRDY,ADR_FOREIGN,,6,"Likely foreign ADR (ends in Y, 5+ chars)"
+RLGY,TICKER_CHANGED,2023-04-04,6,Realogy Holdings rebranded to Anywhere Real Estate; ticker to HOUS
+RNWK,YFINANCE_ISSUE,,6,RealNetworks still exists but micro-cap; possible data issues
+XLS.WI,ADR_FOREIGN,,6,International exchange listing (.WI)
+AIMC,ACQUIRED_PUBLIC,2019-08-02,5,Altra Industrial Motion acquired by Regal Rexnord (RRX)
+ALTR,ACQUIRED_PUBLIC,2024-12-19,5,Altair Engineering acquired by Siemens AG for ~$10.6B
+AMEH,TICKER_CHANGED,2023-06-01,5,Apollo Medical/ApolloMed rebranded to Astrana Health; ticker to ASTH
+BRCM,ACQUIRED_PUBLIC,2016-02-01,5,Broadcom Corp acquired by Avago Technologies; combined as AVGO
+BRP,TICKER_CHANGED,2023-06-05,5,BRP Group rebranded to Baldwin Insurance Group; ticker to BWIN
+CCXI,ACQUIRED_PUBLIC,2022-10-18,5,ChemoCentryx acquired by Amgen for ~$3.7B
+CHK,BANKRUPT,2020-06-28,5,"Chesapeake Energy filed Chapter 11 bankruptcy, emerged 2021"
+CMLFU,SPAC_FAILED,2023-01-01,5,CM Life Sciences III SPAC; failed to complete merger; liquidated
+FII,TICKER_CHANGED,2020-01-01,5,Federated Investors rebranded to Federated Hermes; ticker to FHI
+GEAGY,ADR_FOREIGN,,5,"Likely foreign ADR (ends in Y, 5+ chars)"
+HDELY,ADR_FOREIGN,,5,"Likely foreign ADR (ends in Y, 5+ chars)"
+HTA,MERGED,2022-07-20,5,Healthcare Trust of America merged with Healthcare Realty Trust (HR)
+INST,ACQUIRED_PRIVATE,2024-03-21,5,Instructure Holdings taken private by KKR for ~$4.8B
+JCOM,TICKER_CHANGED,2022-07-01,5,j2 Global renamed to Ziff Davis; ticker changed to ZD
+LANC,YFINANCE_ISSUE,,5,Lancaster Colony still trades as LANC on NASDAQ
+LNEGY,ADR_FOREIGN,,5,"Likely foreign ADR (ends in Y, 5+ chars)"
+MDC,ACQUIRED_PUBLIC,2024-02-02,5,M.D.C. Holdings acquired by Sekisui House for ~$4.9B
+MNK,BANKRUPT,2020-10-12,5,Mallinckrodt filed Chapter 11 bankruptcy
+NRBAY,ADR_FOREIGN,,5,"Likely foreign ADR (ends in Y, 5+ chars)"
+NUVA,MERGED,2023-09-01,5,NuVasive merged with Globus Medical; trades as GMED
+PRSP,ACQUIRED_PRIVATE,2022-04-14,5,Perspecta acquired by Peraton (Veritas Capital) for ~$7.1B
+QLIK,ACQUIRED_PRIVATE,2016-08-01,5,Qlik acquired by Thoma Bravo
+RAVN,ACQUIRED_PUBLIC,2021-08-23,5,Raven Industries acquired by CNH Industrial for ~$2.1B
+RBS,TICKER_CHANGED,2020-07-22,5,Royal Bank of Scotland renamed NatWest Group; ticker to NWG
+SI,BANKRUPT,2023-03-08,5,Silvergate Capital announced voluntary liquidation amid crypto crisis
+SNH,TICKER_CHANGED,2020-02-28,5,Senior Housing Properties Trust renamed to Diversified Healthcare Trust (DHC)
+TGE,ACQUIRED_PRIVATE,2019-11-15,5,Tallgrass Energy taken private by Blackstone Infrastructure for ~$5.1B
+VIVO,ACQUIRED_PRIVATE,2023-02-27,5,Meridian Bioscience acquired by SD Biosensor/SJL Partners for ~$1.53B
+ALTM,ACQUIRED_PRIVATE,2023-12-01,4,Altus Midstream merged/acquired
+AMGP,UNKNOWN,,4,Insufficient information to categorize
+ANZBY,ADR_FOREIGN,,4,"Likely foreign ADR (ends in Y, 5+ chars)"
+ATASY,ADR_FOREIGN,,4,"Likely foreign ADR (ends in Y, 5+ chars)"
+ATHN,UNKNOWN,,4,Insufficient information to categorize
+AVLR,UNKNOWN,,4,Insufficient information to categorize
+AYR,UNKNOWN,,4,Insufficient information to categorize
+BAMXY,ADR_FOREIGN,,4,"Likely foreign ADR (ends in Y, 5+ chars)"
+BGNE,UNKNOWN,,4,Insufficient information to categorize
+BXS,UNKNOWN,,4,Insufficient information to categorize
+CCMP,UNKNOWN,,4,Insufficient information to categorize
+CHUY,UNKNOWN,,4,Insufficient information to categorize
+CLSN,UNKNOWN,,4,Insufficient information to categorize
+CYBX,UNKNOWN,,4,Insufficient information to categorize
+DPLO,UNKNOWN,,4,Insufficient information to categorize
+ECOL,UNKNOWN,,4,Insufficient information to categorize
+ESV,UNKNOWN,,4,Insufficient information to categorize
+EVOP,UNKNOWN,,4,Insufficient information to categorize
+EXXI,UNKNOWN,,4,Insufficient information to categorize
+FNA,UNKNOWN,,4,Insufficient information to categorize
+FNGN,UNKNOWN,,4,Insufficient information to categorize
+GCGMF,ADR_FOREIGN,,4,"Likely foreign OTC (ends in F, 5+ chars)"
+GOV,UNKNOWN,,4,Insufficient information to categorize
+HIL,UNKNOWN,,4,Insufficient information to categorize
+IPHI,UNKNOWN,,4,Insufficient information to categorize
+JBT,UNKNOWN,,4,Insufficient information to categorize
+LM09.SG,UNKNOWN,,4,Insufficient information to categorize
+MAXR,ACQUIRED_PRIVATE,2023-05-16,4,Maxar Technologies acquired by Advent International
+MDCA,UNKNOWN,,4,Insufficient information to categorize
+MFGP,UNKNOWN,,4,Insufficient information to categorize
+NCR,UNKNOWN,,4,Insufficient information to categorize
+NEE$Q,YFINANCE_ISSUE,,4,Preferred share notation - may need format fix
+OFC,UNKNOWN,,4,Insufficient information to categorize
+PLL,UNKNOWN,,4,Insufficient information to categorize
+SCU,UNKNOWN,,4,Insufficient information to categorize
+SHYF,UNKNOWN,,4,Insufficient information to categorize
+SKVKY,ADR_FOREIGN,,4,"Likely foreign ADR (ends in Y, 5+ chars)"
+SWI,UNKNOWN,,4,Insufficient information to categorize
+TCP,UNKNOWN,,4,Insufficient information to categorize
+TLND,UNKNOWN,,4,Insufficient information to categorize
+UPMKY,ADR_FOREIGN,,4,"Likely foreign ADR (ends in Y, 5+ chars)"
+WETF,UNKNOWN,,4,Insufficient information to categorize
+ZOOM,YFINANCE_ISSUE,,4,"ZOOM Video is ZM, not ZOOM (data entry error)"
+ALOG,ACQUIRED_PRIVATE,2021-08-18,3,Analogic acquired by Altaris Capital Partners
+APEN,UNKNOWN,,3,Insufficient information to categorize
+APPAD,UNKNOWN,,3,Insufficient information to categorize
+ARRS,UNKNOWN,,3,Insufficient information to categorize
+ATUS,UNKNOWN,,3,Insufficient information to categorize
+AVYA,UNKNOWN,,3,Insufficient information to categorize
+BALY,UNKNOWN,,3,Insufficient information to categorize
+BGCP,UNKNOWN,,3,Insufficient information to categorize
+BGFV,UNKNOWN,,3,Insufficient information to categorize
+BGG,UNKNOWN,,3,Insufficient information to categorize
+BMR,UNKNOWN,,3,Insufficient information to categorize
+CBM,UNKNOWN,,3,Insufficient information to categorize
+CUTR,ACQUIRED_PRIVATE,2024-01-25,3,Cutera went private / delisted
+DMTK,UNKNOWN,,3,Insufficient information to categorize
+DNSKY,ADR_FOREIGN,,3,"Likely foreign ADR (ends in Y, 5+ chars)"
+DVFAX,UNKNOWN,,3,Insufficient information to categorize
+ELLI,UNKNOWN,,3,Insufficient information to categorize
+ERI,UNKNOWN,,3,Insufficient information to categorize
+ESGR,UNKNOWN,,3,Insufficient information to categorize
+ESL,UNKNOWN,,3,Insufficient information to categorize
+FMBA,UNKNOWN,,3,Insufficient information to categorize
+GLIBA,UNKNOWN,,3,Insufficient information to categorize
+GSAH,UNKNOWN,,3,Insufficient information to categorize
+HLUYY,ADR_FOREIGN,,3,"Likely foreign ADR (ends in Y, 5+ chars)"
+IAA,UNKNOWN,,3,Insufficient information to categorize
+LTXB,UNKNOWN,,3,Insufficient information to categorize
+MANT,UNKNOWN,,3,Insufficient information to categorize
+MGP,UNKNOWN,,3,Insufficient information to categorize
+MINI,UNKNOWN,,3,Insufficient information to categorize
+MLPI,UNKNOWN,,3,Insufficient information to categorize
+NCMGF,ADR_FOREIGN,,3,"Likely foreign OTC (ends in F, 5+ chars)"
+NEWR,UNKNOWN,,3,Insufficient information to categorize
+OZM,UNKNOWN,,3,Insufficient information to categorize
+PARAA,UNKNOWN,,3,Insufficient information to categorize
+PCPL,UNKNOWN,,3,Insufficient information to categorize
+PETQ,UNKNOWN,,3,Insufficient information to categorize
+RDUS,UNKNOWN,,3,Insufficient information to categorize
+SPKE,UNKNOWN,,3,Insufficient information to categorize
+SPY160219P00180000,DATA_ERROR,,3,Invalid ticker format: 'SPY160219P00180000'
+TFCFA,UNKNOWN,,3,Insufficient information to categorize
+TRHC,UNKNOWN,,3,Insufficient information to categorize
+TTP,UNKNOWN,,3,Insufficient information to categorize
+TWOU,BANKRUPT,2024-07-31,3,2U filed Chapter 11 bankruptcy
+UBNT,UNKNOWN,,3,Insufficient information to categorize
+UFS,UNKNOWN,,3,Insufficient information to categorize
+VTRSV,UNKNOWN,,3,Insufficient information to categorize
+"WMT, SBUX, BRKB AND AAPL",DATA_ERROR,,3,"Invalid ticker format: 'WMT, SBUX, BRKB AND AAPL'"
+WTR,UNKNOWN,,3,Insufficient information to categorize
+WTT,UNKNOWN,,3,Insufficient information to categorize
+3V64.TI,UNKNOWN,,2,International ticker notation (.TI = possibly Telecom Italia or other European exchange); Not found in JARVIS US market data
+ABDC,UNKNOWN,,2,Insufficient information to categorize
+ADSW,ACQUIRED_PUBLIC,2020-10-30,2,Advanced Disposal Services acquired by Waste Management (WM)
+AEZS,YFINANCE_ISSUE,,2,Aeterna Zentaris still trades as AEZS on NASDAQ
+ANCX,UNKNOWN,,2,Insufficient information to categorize
+APY,UNKNOWN,,2,Insufficient information to categorize
+AQFH,UNKNOWN,,2,Insufficient information to categorize
+ARCI,UNKNOWN,,2,Insufficient information to categorize
+ASXC,UNKNOWN,,2,Insufficient information to categorize
+ATML,UNKNOWN,,2,Insufficient information to categorize
+AYX,UNKNOWN,,2,Insufficient information to categorize
+BAF,UNKNOWN,,2,Insufficient information to categorize
+BCEL,UNKNOWN,,2,Insufficient information to categorize
+BOWX,UNKNOWN,,2,Insufficient information to categorize
+BRKL,UNKNOWN,,2,Insufficient information to categorize
+BRMK,UNKNOWN,,2,Insufficient information to categorize
+BUNT,UNKNOWN,,2,Insufficient information to categorize
+CANO,UNKNOWN,,2,Insufficient information to categorize
+CBAY,UNKNOWN,,2,Insufficient information to categorize
+CBLK,UNKNOWN,,2,Insufficient information to categorize
+CCXX,UNKNOWN,,2,Insufficient information to categorize
+CEB,UNKNOWN,,2,Insufficient information to categorize
+CEMCF,ADR_FOREIGN,,2,"Likely foreign OTC (ends in F, 5+ chars)"
+CINR,UNKNOWN,,2,Insufficient information to categorize
+CMLF,UNKNOWN,,2,Insufficient information to categorize
+CNXM,UNKNOWN,,2,Insufficient information to categorize
+COLPAL,UNKNOWN,,2,Insufficient information to categorize
+COT,UNKNOWN,,2,Insufficient information to categorize
+CPE,UNKNOWN,,2,Insufficient information to categorize
+CRZO,UNKNOWN,,2,Insufficient information to categorize
+CSII,UNKNOWN,,2,Insufficient information to categorize
+CTAA,UNKNOWN,,2,Insufficient information to categorize
+CTRCF,ADR_FOREIGN,,2,"Likely foreign OTC (ends in F, 5+ chars)"
+CVA,UNKNOWN,,2,Insufficient information to categorize
+CXP,UNKNOWN,,2,Insufficient information to categorize
+DLICY,ADR_FOREIGN,,2,"Likely foreign ADR (ends in Y, 5+ chars)"
+DWAC,MERGED,2024-03-25,2,Digital World Acquisition merged with Trump Media (DJT)
+DXTR,UNKNOWN,,2,Insufficient information to categorize
+ECA,UNKNOWN,,2,Insufficient information to categorize
+ENOB,UNKNOWN,,2,Insufficient information to categorize
+ESGC,UNKNOWN,,2,Insufficient information to categorize
+FBC,UNKNOWN,,2,Insufficient information to categorize
+FNBC,UNKNOWN,,2,Insufficient information to categorize
+FOE,UNKNOWN,,2,Insufficient information to categorize
+FSD,UNKNOWN,,2,Insufficient information to categorize
+GAN,UNKNOWN,,2,Insufficient information to categorize
+GNKOQ,UNKNOWN,,2,Insufficient information to categorize
+HPT,UNKNOWN,,2,Insufficient information to categorize
+IDTI,UNKNOWN,,2,Insufficient information to categorize
+II,UNKNOWN,,2,Insufficient information to categorize
+INGIY,ADR_FOREIGN,,2,"Likely foreign ADR (ends in Y, 5+ chars)"
+INOV,UNKNOWN,,2,Insufficient information to categorize
+IRET,UNKNOWN,,2,Insufficient information to categorize
+ISEE,UNKNOWN,,2,Insufficient information to categorize
+ITEK,UNKNOWN,,2,Insufficient information to categorize
+ITTOY,ADR_FOREIGN,,2,"Likely foreign ADR (ends in Y, 5+ chars)"
+LMST,UNKNOWN,,2,Insufficient information to categorize
+LNCE,UNKNOWN,,2,Insufficient information to categorize
+LTRPA,UNKNOWN,,2,Insufficient information to categorize
+MCC,UNKNOWN,,2,Insufficient information to categorize
+MRTX,UNKNOWN,,2,Insufficient information to categorize
+MSBHY,ADR_FOREIGN,,2,"Likely foreign ADR (ends in Y, 5+ chars)"
+NEOT,UNKNOWN,,2,Insufficient information to categorize
+NILSY,ADR_FOREIGN,,2,"Likely foreign ADR (ends in Y, 5+ chars)"
+NKLA,BANKRUPT,2024-11-19,2,Nikola filed Chapter 11 bankruptcy
+OCN,UNKNOWN,,2,Insufficient information to categorize
+ONE SHARE FOR ONE SHARE,DATA_ERROR,,2,Not a valid stock ticker - appears to be data entry error in congressional trading dataset
+ORBK,UNKNOWN,,2,Insufficient information to categorize
+OTIC,UNKNOWN,,2,Insufficient information to categorize
+PFPT,UNKNOWN,,2,Insufficient information to categorize
+RCII,ACQUIRED_PRIVATE,2024-06-18,2,Rent-A-Center acquired by CD&R and TowerBrook Capital
+RETA,UNKNOWN,,2,Insufficient information to categorize
+SMCYY,ADR_FOREIGN,,2,"Likely foreign ADR (ends in Y, 5+ chars)"
+SNHY,UNKNOWN,,2,Insufficient information to categorize
+SOLO,UNKNOWN,,2,Insufficient information to categorize
+SWH,UNKNOWN,,2,Insufficient information to categorize
+TEAR,UNKNOWN,,2,Insufficient information to categorize
+TEUM,UNKNOWN,,2,Insufficient information to categorize
+TFFP,UNKNOWN,,2,Insufficient information to categorize
+TIS,UNKNOWN,,2,Insufficient information to categorize
+TMUSR,UNKNOWN,,2,Insufficient information to categorize
+TOSYY,ADR_FOREIGN,,2,"Likely foreign ADR (ends in Y, 5+ chars)"
+TPCO,UNKNOWN,,2,Insufficient information to categorize
+TRIT,UNKNOWN,,2,Insufficient information to categorize
+TRXC,UNKNOWN,,2,Insufficient information to categorize
+VCRA,UNKNOWN,,2,Insufficient information to categorize
+VOLVY,ADR_FOREIGN,,2,"Likely foreign ADR (ends in Y, 5+ chars)"
+VPFG,UNKNOWN,,2,Insufficient information to categorize
+VRAY,UNKNOWN,,2,Insufficient information to categorize
+VTNR,UNKNOWN,,2,Insufficient information to categorize
+VVNT,UNKNOWN,,2,Insufficient information to categorize
+WOPEY,ADR_FOREIGN,,2,"Likely foreign ADR (ends in Y, 5+ chars)"
+ZN,UNKNOWN,,2,Insufficient information to categorize
+ABCO,ACQUIRED_PUBLIC,2020-08-06,1,Advisory Board Company acquired by Optum/UnitedHealth (UNH)
+ACGPF,ADR_FOREIGN,,1,"Likely foreign OTC (ends in F, 5+ chars)"
+ADT.F,ADR_FOREIGN,,1,International exchange listing (.F)
+AESE,BANKRUPT,2024-01-01,1,"Allied Esports delisted, failed SPAC"
+AHL.C,UNKNOWN,,1,Insufficient information to categorize
+ALLK,YFINANCE_ISSUE,,1,Allakos still trades as ALLK on NASDAQ
+ALYF,UNKNOWN,,1,Insufficient information to categorize
+AMCRY,UNKNOWN,,1,Insufficient information to categorize
+AMSG,UNKNOWN,,1,Insufficient information to categorize
+AOBC,UNKNOWN,,1,Insufficient information to categorize
+APPL,DATA_ERROR,,1,Possible confusion with AAPL (Apple); Exact APPL ticker not identified in standard US markets
+ARAV,UNKNOWN,,1,Insufficient information to categorize
+ARINA,UNKNOWN,,1,Insufficient information to categorize
+ASBC,UNKNOWN,,1,Insufficient information to categorize
+AXHE,UNKNOWN,,1,Insufficient information to categorize
+AXTE,UNKNOWN,,1,Insufficient information to categorize
+BAC$I,YFINANCE_ISSUE,,1,Preferred share notation - may need format fix
+BANC$E,YFINANCE_ISSUE,,1,Preferred share notation - may need format fix
+BBAVY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+BEL,UNKNOWN,,1,Insufficient information to categorize
+BETR,UNKNOWN,,1,Insufficient information to categorize
+BHLB,UNKNOWN,,1,Insufficient information to categorize
+BIN,UNKNOWN,,1,Insufficient information to categorize
+BKEPP,UNKNOWN,,1,Insufficient information to categorize
+BLFSD,UNKNOWN,,1,Insufficient information to categorize
+BONT,UNKNOWN,,1,Insufficient information to categorize
+BREW,UNKNOWN,,1,Insufficient information to categorize
+BTVCY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+BUNT.RP,UNKNOWN,,1,Insufficient information to categorize
+CBSI,UNKNOWN,,1,Insufficient information to categorize
+CCCS,UNKNOWN,,1,Insufficient information to categorize
+CCLAY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+CCLP,UNKNOWN,,1,Insufficient information to categorize
+CEM,UNKNOWN,,1,Insufficient information to categorize
+CEMI,UNKNOWN,,1,Insufficient information to categorize
+CHEUY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+CMLPSX,UNKNOWN,,1,Insufficient information to categorize
+CMLTU,UNKNOWN,,1,Insufficient information to categorize
+CMN,UNKNOWN,,1,Insufficient information to categorize
+CYTR,UNKNOWN,,1,Insufficient information to categorize
+DD.PA,ADR_FOREIGN,,1,International exchange listing (.PA)
+DFRG,UNKNOWN,,1,Insufficient information to categorize
+DGNR,UNKNOWN,,1,Insufficient information to categorize
+DSEY,UNKNOWN,,1,Insufficient information to categorize
+DUKH,UNKNOWN,,1,Insufficient information to categorize
+EPAY,UNKNOWN,,1,Insufficient information to categorize
+EQC,MERGED,2023-10-01,1,Equity Commonwealth liquidated/dissolved assets
+ESALY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+ESTE,UNKNOWN,,1,Insufficient information to categorize
+ETWO.W,UNKNOWN,,1,Insufficient information to categorize
+FL4.SG,UNKNOWN,,1,Insufficient information to categorize
+FMBI,UNKNOWN,,1,Insufficient information to categorize
+FMCMF,ADR_FOREIGN,,1,"Likely foreign OTC (ends in F, 5+ chars)"
+FNFV.V,UNKNOWN,,1,Insufficient information to categorize
+FPL,UNKNOWN,,1,Insufficient information to categorize
+FRRVY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+FSKR,UNKNOWN,,1,Insufficient information to categorize
+FTSI,UNKNOWN,,1,Insufficient information to categorize
+GCP,UNKNOWN,,1,Insufficient information to categorize
+GFSZY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+GMXAY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+GOOCV,UNKNOWN,,1,Insufficient information to categorize
+GWPH,UNKNOWN,,1,Insufficient information to categorize
+HF,UNKNOWN,,1,Insufficient information to categorize
+HIBB,UNKNOWN,,1,Insufficient information to categorize
+HSAC,UNKNOWN,,1,Insufficient information to categorize
+HUB.A,UNKNOWN,,1,Insufficient information to categorize
+IIN,UNKNOWN,,1,Insufficient information to categorize
+IIVI,UNKNOWN,,1,Insufficient information to categorize
+INFI,UNKNOWN,,1,Insufficient information to categorize
+INFR,UNKNOWN,,1,Insufficient information to categorize
+INSW.V,UNKNOWN,,1,Insufficient information to categorize
+IPCM,UNKNOWN,,1,Insufficient information to categorize
+IS,UNKNOWN,,1,Insufficient information to categorize
+ITIP,UNKNOWN,,1,Insufficient information to categorize
+IXNZF,ADR_FOREIGN,,1,"Likely foreign OTC (ends in F, 5+ chars)"
+JMP,UNKNOWN,,1,Insufficient information to categorize
+KMI.W,UNKNOWN,,1,Insufficient information to categorize
+KRTX,UNKNOWN,,1,Insufficient information to categorize
+LBDAV,UNKNOWN,,1,Insufficient information to categorize
+LBIX,UNKNOWN,,1,Insufficient information to categorize
+LMACU,UNKNOWN,,1,Insufficient information to categorize
+LNCO,UNKNOWN,,1,Insufficient information to categorize
+LOCK,UNKNOWN,,1,Insufficient information to categorize
+MFRM,UNKNOWN,,1,Insufficient information to categorize
+MICRD,UNKNOWN,,1,Insufficient information to categorize
+MNRL,UNKNOWN,,1,Insufficient information to categorize
+"MONTGOMERY, AL .2, SCHAUMBERG, IL .1",DATA_ERROR,,1,"Invalid ticker format: 'MONTGOMERY, AL .2, SCHAUMBERG, IL .1'"
+MPLN,UNKNOWN,,1,Insufficient information to categorize
+MRT,UNKNOWN,,1,Insufficient information to categorize
+MTZPY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+NCMGY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+NEE.PC,UNKNOWN,,1,Insufficient information to categorize
+NEE.PRI,UNKNOWN,,1,Insufficient information to categorize
+NESR,UNKNOWN,,1,Insufficient information to categorize
+NETE,UNKNOWN,,1,Insufficient information to categorize
+NID,UNKNOWN,,1,Insufficient information to categorize
+NJ,UNKNOWN,,1,Insufficient information to categorize
+NPSND,UNKNOWN,,1,Insufficient information to categorize
+NTDMF,ADR_FOREIGN,,1,"Likely foreign OTC (ends in F, 5+ chars)"
+NTXFY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+NVIGF,ADR_FOREIGN,,1,"Likely foreign OTC (ends in F, 5+ chars)"
+NYMX,UNKNOWN,,1,Insufficient information to categorize
+OOCP,UNKNOWN,,1,Insufficient information to categorize
+OPI,BANKRUPT,2024-06-07,1,Office Properties Income Trust filed Chapter 11 bankruptcy
+OZRK,UNKNOWN,,1,Insufficient information to categorize
+PANDY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+PCPL.U,UNKNOWN,,1,Insufficient information to categorize
+PDYPY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+PETRY,UNKNOWN,,1,Insufficient information to categorize
+PHLD,UNKNOWN,,1,Insufficient information to categorize
+PLKI,UNKNOWN,,1,Insufficient information to categorize
+PLT,UNKNOWN,,1,Insufficient information to categorize
+POEFF,ADR_FOREIGN,,1,"Likely foreign OTC (ends in F, 5+ chars)"
+PSB,UNKNOWN,,1,Insufficient information to categorize
+PSTH,SPAC_FAILED,2022-09-01,1,Pershing Square Tontine Holdings SPAC dissolved
+PTLA,UNKNOWN,,1,Insufficient information to categorize
+PYPLV,UNKNOWN,,1,Insufficient information to categorize
+QRTEP,UNKNOWN,,1,Insufficient information to categorize
+QUMU,UNKNOWN,,1,Insufficient information to categorize
+RDSA.AS,ADR_FOREIGN,,1,International exchange listing (.AS)
+RMBFX,UNKNOWN,,1,Insufficient information to categorize
+ROIC,UNKNOWN,,1,Insufficient information to categorize
+RTL,UNKNOWN,,1,Insufficient information to categorize
+RVI,UNKNOWN,,1,Insufficient information to categorize
+RVNC,UNKNOWN,,1,Insufficient information to categorize
+RYDBF,ADR_FOREIGN,,1,"Likely foreign OTC (ends in F, 5+ chars)"
+SAFM,UNKNOWN,,1,Insufficient information to categorize
+SBUX.SW,ADR_FOREIGN,,1,International exchange listing (.SW)
+SCHN,UNKNOWN,,1,Insufficient information to categorize
+SILK,UNKNOWN,,1,Insufficient information to categorize
+SKHCY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+SMTA,UNKNOWN,,1,Insufficient information to categorize
+SOAGY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+SPKEP,UNKNOWN,,1,Insufficient information to categorize
+SQI,UNKNOWN,,1,Insufficient information to categorize
+SRE$A,YFINANCE_ISSUE,,1,Preferred share notation - may need format fix
+SSLTY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+SVCBY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+SWMAY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+SZEVY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+TACO,YFINANCE_ISSUE,,1,Del Taco went private via Jack in the Box (JACK) acquisition 2022
+TANN,UNKNOWN,,1,Insufficient information to categorize
+TCYMY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+TKPYY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+TLRD,BANKRUPT,2020-08-02,1,Tailored Brands filed Chapter 7 bankruptcy
+TLRN,UNKNOWN,,1,Insufficient information to categorize
+TNGO,UNKNOWN,,1,Insufficient information to categorize
+TUMI,UNKNOWN,,1,Insufficient information to categorize
+TVTY,UNKNOWN,,1,Insufficient information to categorize
+TYPE,UNKNOWN,,1,Insufficient information to categorize
+UA.C,UNKNOWN,,1,Insufficient information to categorize
+UBA,UNKNOWN,,1,Insufficient information to categorize
+UHID,UNKNOWN,,1,Insufficient information to categorize
+VGRAX,UNKNOWN,,1,Insufficient information to categorize
+VIV.V,UNKNOWN,,1,Insufficient information to categorize
+VSI,UNKNOWN,,1,Insufficient information to categorize
+WAIR,UNKNOWN,,1,Insufficient information to categorize
+WCAGY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+WGHPY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+WNRP,UNKNOWN,,1,Insufficient information to categorize
+WRK.V,UNKNOWN,,1,Insufficient information to categorize
+WSTMX,UNKNOWN,,1,Insufficient information to categorize
+WY.Z,UNKNOWN,,1,Insufficient information to categorize
+XMEX,UNKNOWN,,1,Insufficient information to categorize
+YAMHY,ADR_FOREIGN,,1,"Likely foreign ADR (ends in Y, 5+ chars)"
+YTEN,UNKNOWN,,1,Insufficient information to categorize
+ZIMV,YFINANCE_ISSUE,,1,ZimVie spun off from Zimmer Biomet - trades as ZIMV
+ZIOP,YFINANCE_ISSUE,,1,ZIOPHARM Oncology renamed to Alaunos Therapeutics (TCRT)
+ZNGA.SW,ADR_FOREIGN,,1,International exchange listing (.SW)
+^MWE,DATA_ERROR,,1,"Index symbol, not a stock"
+^RGP,DATA_ERROR,,1,"Index symbol, not a stock"
