@@ -1,0 +1,118 @@
+original_ticker,mapped_ticker,reason
+ABC,COR,AmerisourceBergen renamed to Cencora (2023)
+ADS,BFH,Alliance Data renamed to Bread Financial
+AGN,ABBV,Allergan acquired by AbbVie (2020)
+ANTM,ELV,Anthem renamed to Elevance Health (2022)
+ARNC,HWM,Arconic renamed to Howmet Aerospace
+ATVI,MSFT,Activision acquired by Microsoft (2023)
+AJRD,LHX,Aerojet Rocketdyne acquired by L3Harris (2023)
+AZPN,EMR,AspenTech majority acquired by Emerson
+BHI,BKR,Baker Hughes ticker changed
+CA,AVGO,CA Technologies acquired by Broadcom
+CBS,PARA,CBS merged into Paramount
+COH,TPR,Coach renamed to Tapestry
+CTL,LUMN,CenturyLink renamed to Lumen
+DWDP,DD,DowDuPont split - Dow Inc is primary successor
+ESRX,CI,Express Scripts acquired by Cigna
+FDC,FIS,First Data acquired by FIS
+GPS,GAP,Gap Inc renamed ticker (2024)
+HRS,LHX,Harris merged with L3 to form L3Harris
+IHS,SPGI,IHS Markit merged with S&P Global
+LVGO,TDOC,Livongo merged with Teladoc
+MON,BAYRY,Monsanto acquired by Bayer
+MYL,VTRS,Mylan merged to form Viatris
+NLOK,GEN,NortonLifeLock renamed to Gen Digital
+RHT,IBM,Red Hat acquired by IBM
+RTN,RTX,Raytheon merged with UTC to form RTX
+SNI,WBD,Scripps Networks acquired by Discovery then WBD
+STI,TFC,SunTrust merged with BB&T to form Truist
+SYMC,GEN,Symantec renamed to NortonLifeLock then Gen Digital
+TIF,LVMUY,Tiffany acquired by LVMH
+TWX,T,Time Warner acquired by AT&T
+WCG,CNC,WellCare acquired by Centene
+WLTW,WTW,Willis Towers Watson renamed
+WYND,WH,Wyndham split - hotels became WH
+XEC,OVV,Cimarex merged with Ovintiv
+BRKB,BRK-B,Berkshire Hathaway alternate notation
+TFCF,DIS,21st Century Fox acquired by Disney (2019)
+CERN,ORCL,Cerner acquired by Oracle (2022)
+WPX,DVN,WPX Energy merged with Devon Energy (2021)
+CNHI,CNH,CNH Industrial ticker change (2023)
+STAY,EXR,Extended Stay America acquired by Blackstone/Starwood (2021)
+SRCL,WM,Stericycle acquired by Waste Management (2024)
+SHLX,SHEL,Shell Midstream Partners merged into Shell (2021)
+INFO,SPGI,IHS Markit/Info merged with S&P Global (2022)
+MMP,OKE,Magellan Midstream merged with ONEOK (2023)
+UN,UL,Unilever consolidated to single UL ticker (2020)
+VLP,VLO,Valero Energy Partners merged into Valero (2019)
+KSU,CP,Kansas City Southern acquired by Canadian Pacific (2021)
+HDS,HD,HD Supply acquired by Home Depot (2020)
+ETP,ET,Energy Transfer Partners merged into Energy Transfer (2018)
+SHPG,TAK,Shire acquired by Takeda Pharmaceutical (2019)
+LMRK,DBRG,Landmark Infrastructure acquired by DigitalBridge (2021)
+GPP,GPRE,Green Plains Partners merged into Green Plains (2023)
+FEYE,MNDT,FireEye renamed to Mandiant (2021)
+VIAB,PARA,Viacom merged into Paramount
+VIAC,PARA,ViacomCBS renamed to Paramount
+DISCA,WBD,Discovery merged into Warner Bros Discovery (2022)
+DISCK,WBD,Discovery Class C merged into WBD (2022)
+BIVV,SNY,Bioverativ acquired by Sanofi (2018)
+PE,PXD,Parsley Energy merged with Pioneer Natural Resources (2021)
+VMW,AVGO,VMware acquired by Broadcom (2023)
+S,TMUS,Sprint merged with T-Mobile (2020)
+CELG,BMY,Celgene acquired by Bristol Myers Squibb (2019)
+ALXN,AZN,Alexion acquired by AstraZeneca (2021)
+FLIR,TDY,FLIR acquired by Teledyne Technologies (2021)
+WFM,AMZN,Whole Foods acquired by Amazon (2017)
+ZNGA,TTWO,Zynga acquired by Take-Two Interactive (2022)
+SPLK,CSCO,Splunk acquired by Cisco (2024)
+DFS,COF,Discover merged with Capital One (2025)
+MRO,COP,Marathon Oil merged with ConocoPhillips (2024)
+X,NPSCY,US Steel acquired by Nippon Steel (2025)
+ETFC,MS,E*TRADE acquired by Morgan Stanley (2020)
+CREE,WOLF,Cree renamed to Wolfspeed (2021)
+UTX,RTX,United Technologies merged to form Raytheon Technologies (2020)
+PXD,XOM,Pioneer Natural Resources acquired by ExxonMobil (2024)
+PCLN,BKNG,Priceline renamed to Booking Holdings (2018)
+APHA,TLRY,Aphria merged with Tilray (2021)
+RDS.A,SHEL,Royal Dutch Shell A shares consolidated to SHEL (2022)
+RDS.B,SHEL,Royal Dutch Shell B shares consolidated to SHEL (2022)
+LLTC,ADI,Linear Technology acquired by Analog Devices (2017)
+MXIM,ADI,Maxim Integrated acquired by Analog Devices (2021)
+KL,AEM,Kirkland Lake Gold merged with Agnico Eagle (2022)
+DLPH,APTV,Delphi Automotive renamed to Aptiv (2017)
+ABMD,JNJ,Abiomed acquired by Johnson & Johnson (2022)
+SGEN,PFE,Seagen acquired by Pfizer (2023)
+HZNP,AMGN,Horizon Therapeutics acquired by Amgen (2023)
+HA,ALK,Hawaiian Airlines acquired by Alaska Air Group (2024)
+SWN,EXE,Southwestern Energy merged into Expand Energy (2024)
+CTLT,NVO,Catalent acquired by Novo Holdings (2024)
+JNPR,HPE,Juniper Networks acquired by HPE (2025)
+SWAV,JNJ,Shockwave Medical acquired by J&J (2024)
+HCP,IBM,HashiCorp acquired by IBM (2025)
+ITCI,JNJ,Intra-Cellular Therapies acquired by J&J (2025)
+PDCE,CVX,PDC Energy acquired by Chevron (2023)
+ACXM,RAMP,Acxiom renamed to LiveRamp (2018)
+LSXK,SIRI,Liberty SiriusXM restructured into Sirius XM (2024)
+TSO,MPC,Tesoro became Andeavor then acquired by Marathon Petroleum (2018)
+EMC,DELL,EMC merged with Dell Technologies (2016)
+MYLAN,VTRS,Mylan alternate ticker merged to form Viatris (2020)
+PPBI,COLB,Pacific Premier Bancorp acquired by Columbia Banking (2025)
+ENLC,OKE,EnLink Midstream acquired by ONEOK (2025)
+MHLD,KG,Maiden Holdings merged with Kestrel Group (2025)
+QEP,FANG,QEP Resources acquired by Diamondback Energy (2021)
+CY,IFNNY,Cypress Semiconductor acquired by Infineon (2020)
+ANDV,MPC,Andeavor acquired by Marathon Petroleum (2018)
+APC,OXY,Anadarko Petroleum acquired by Occidental (2019)
+FRC,JPM,First Republic Bank seized by FDIC sold to JPMorgan (2023)
+LXFT,DXC,Luxoft acquired by DXC Technology (2019)
+NBL,CVX,Noble Energy acquired by Chevron (2020)
+ONCE,RHHBY,Spark Therapeutics acquired by Roche (2019)
+BHGE,BKR,Baker Hughes GE ticker changed to BKR (2019)
+HES,CVX,Hess Corporation acquired by Chevron (2025)
+FOXA,FOX,21st Century Fox Class A became Fox Corp (2019)
+DOOR,OC,Masonite acquired by Owens Corning (2024)
+GWR,BAM,Genesee & Wyoming acquired by Brookfield (2019)
+CTB,GT,Cooper Tire acquired by Goodyear (2021)
+LGF.A,LION,Lions Gate Class A restructured to Lionsgate (2025)
+LGF.B,LION,Lions Gate Class B restructured to Lionsgate (2025)
