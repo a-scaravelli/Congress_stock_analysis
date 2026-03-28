@@ -1,0 +1,248 @@
+original_ticker,status,reason,acquiring_company,new_ticker,notes,search_date
+TWTR,DELISTED,WENT_PRIVATE,Elon Musk (personal acquisition),none,"Delisted from NYSE November 8, 2022; Elon Musk acquired for ~$44 billion; Company now private as X",2026-02-03
+CELG,DELISTED,ACQUIRED,Bristol Myers Squibb,BMY,"Acquired January 2, 2019; Announced for $102.43 per share; BMS completed May 2, 2019; NASDAQ delisting after market close April 12, 2019",2026-02-03
+SIVB,DELISTED,BANKRUPT,FDIC (bank failure),OTCMKTS,"Silicon Valley Bank collapsed March 10, 2023 - third largest bank failure in US history; Now trades OTC",2026-02-03
+FLIR,DELISTED,ACQUIRED,Teledyne Technologies,TDY,"Merged May 14, 2021; $8 billion acquisition; FLIR stockholders received $28.00 cash + 0.0718 TDY shares per FLIR share",2026-02-03
+CTXS,DELISTED,ACQUIRED,Vista Equity Partners & Evergreen Coast Capital,Private,"Citrix acquired for $16.5B all-cash; Merged with TIBCO; Deal closed September 30, 2022; Now private",2026-02-03
+DISCA,DELISTED,MERGED,Warner Bros. Discovery,WBD,"Discovery merged with AT&T's WarnerMedia April 11, 2022 to form WBD; Each Discovery share converted to 1.00 WBD share",2026-02-03
+DISCK,DELISTED,MERGED,Warner Bros. Discovery,WBD,Same as DISCA - Discovery Communications merger into WBD,2026-02-03
+ALXN,DELISTED,ACQUIRED,AstraZeneca,AZN,AstraZeneca acquired Alexion Pharmaceuticals; Deal announced December 2020; Completed May 2021,2026-02-03
+DWAC,NOT_DELISTED,MERGED_PENDING,Trump Media & Technology Group,TMTG,DWAC merged with Trump Media in March 2024 but still trading; Nasdaq threatened delisting in 2023,2026-02-03
+CHK,DELISTED,BANKRUPT,Emerged from Ch 11,CHK,"Filed Chapter 11 bankruptcy June 28, 2020; NYSE delisted July 2020; Old shares (CHKAQ) cancelled; New CHK shares listed NASDAQ February 10, 2021",2026-02-03
+VIAB,DELISTED,MERGED,Paramount Global,PARA,"Viacom merged with CBS December 4, 2019 to form ViacomCBS; Renamed Paramount Global February 2022; VIAB delisted from NYSE",2026-02-03
+VIAC,TICKER_CHANGED,MERGED,Paramount Global,PARA,CBS/Viacom merger created ViacomCBS trading under VIAC; Later rebranded to Paramount Global (PARA),2026-02-03
+XENT,DELISTED,ACQUIRED,Medtronic,MDT,"Intersect ENT acquired by Medtronic; Last trade April 29, 2022",2026-02-03
+NLOK,ACQUIRED,ACQUIRED,NortonLifeLock (not delisted),NLOK,"NortonLifeLock acquired Avast September 12, 2022; NLOK continued trading; Avast delisted from LSE",2026-02-03
+PCLN,TICKER_CHANGED,COMPANY_RENAME,Booking Holdings,BKNG,"Parent company Priceline Group renamed Booking Holdings on February 21, 2018; Ticker changed from PCLN to BKNG on February 27, 2018",2026-02-03
+APHA,DELISTED,MERGED,Tilray Inc,TLRY,"Aphria merged with Tilray May 3, 2021; Each APHA share converted to 0.8381 TLRY shares",2026-02-03
+SPLK,DELISTED,ACQUIRED,Cisco Systems,CSCO,"Cisco acquired Splunk for $157/share (~$28 billion) announced September 21, 2023; Completed March 18, 2024",2026-02-03
+RDS.A,TICKER_CHANGED,RESTRUCTURED,Shell Plc (same company),SHEL,"Royal Dutch Shell assimilated A & B shares January 29, 2022; Consolidated into single SHEL ticker on NYSE; Name changed to Shell Plc",2026-02-03
+RDS.B,TICKER_CHANGED,RESTRUCTURED,Shell Plc (same company),SHEL,Same as RDS.A - Share consolidation January 2022; All shares now trade as SHEL,2026-02-03
+RDSA,TICKER_CHANGED,RESTRUCTURED,Shell Plc (same company),SHEL,Euronext listing of Royal Dutch Shell; Consolidated same time as A/B shares consolidation,2026-02-03
+QLIK,DELISTED,ACQUIRED,Thoma Bravo,Private,Thoma Bravo acquired Qlik for ~$3 billion June 2016; Deal completed August 2016; Delisted from NASDAQ,2026-02-03
+UTX,TICKER_CHANGED,MERGED,Raytheon Technologies,RTX,"United Technologies merged with Raytheon April 1, 2020 to form Raytheon Technologies; Ticker changed to RTX",2026-02-03
+ZNGA,DELISTED,ACQUIRED,Take Two Interactive,TTWO,"Take Two acquired Zynga for $12.7 billion announced January 10, 2022; Completed May 23, 2022; Ceased trading May 20, 2022",2026-02-03
+PSTH,DELISTED,FAILED_SPAC,Liquidated,PSTH,"Pershing Square Tontine failed to complete merger within 24 months; Delisted July 25, 2022; Returned ~$20.05 per share; Bill Ackman then launched SPARC",2026-02-03
+NLSN,DELISTED,ACQUIRED,Evergreen Coast Capital & Brookfield Business Partners,Private,"Nielsen acquired for $28/share (~$16 billion all-cash) announced March 2022; Completed October 12, 2022",2026-02-03
+DLPH,TICKER_CHANGED,SPIN-OFF,Aptiv & Delphi Technologies,APTV,"Delphi Automotive split into two: Aptiv (APTV) for autonomous/self-driving tech and Delphi Technologies (DLPH) for powertrain; Effective December 5, 2017",2026-02-03
+ETFC,DELISTED,ACQUIRED,Morgan Stanley,MS,"Morgan Stanley acquired E*TRADE for ~$13 billion announced February 2020; Deal completed October 2, 2020; Delisted October 5, 2020",2026-02-03
+WFM,DELISTED,ACQUIRED,Amazon.com,AMZN,"Amazon acquired Whole Foods Market for $42/share (~$13.7 billion) announced June 16, 2017; Completed August 28, 2017; Delisted from NASDAQ same day",2026-02-03
+BCR,TICKER_CHANGED,COMPANY_RENAME,Bausch Health Companies,BHC,Valeant Pharmaceuticals rebranded to Bausch Health Companies July 2018; Ticker changed from VRX to BHC; Not delisted,2026-02-03
+FEYE,DELISTED,ACQUIRED,Symphony Technology Group / Mandiant,MNDT,"FireEye sold products business to STG June 2021 for $1.2B; Ticker changed to MNDT for Mandiant October 5, 2021; Trellix formed January 2022 from STG/McAfee combo",2026-02-03
+BRK.B,STILL_TRADING,NO_CHANGE,Berkshire Hathaway,BRK.B,No delisting or merger; Continues trading under BRK.B or BRKB on NYSE; May appear as variant ticker notation,2026-02-03
+BRKB,STILL_TRADING,TICKER_VARIANT,Berkshire Hathaway,BRK.B,Alternate notation for Berkshire Hathaway Class B; Not delisted; Both BRK.B and BRKB refer to same security,2026-02-03
+APPL,DATA_ERROR,POSSIBLE_DATA_ERROR,Unknown,Unknown,Possible confusion with AAPL (Apple); Exact APPL ticker not identified in standard US markets,2026-02-03
+ATVI,STILL_TRADING,NO_DELISTING,Activision Blizzard,ATVI,Activision Blizzard still publicly traded despite earlier delisting concerns; Stock trades on NASDAQ,2026-02-03
+ONE SHARE FOR ONE SHARE,DATA_ERROR,DATA_ERROR,Unknown,Unknown,Not a valid stock ticker - appears to be data entry error in congressional trading dataset,2026-02-03
+MONTGOMERY AL .2 SCHAUMBERG IL .1,DATA_ERROR,DATA_ERROR,Unknown,Unknown,Not a valid stock ticker - appears to be location/address data mislabeled as ticker in dataset,2026-02-03
+WMT SBUX BRKB AND AAPL,DATA_ERROR,DATA_ERROR,Unknown,Unknown,"Multiple ticker symbols listed as single entry - data entry error; Should be separated into WMT, SBUX, BRKB, AAPL",2026-02-03
+TWOU,DELISTED,BANKRUPT,N/A (liquidated as private),TWOUQ,"Declared bankruptcy July 25, 2024; Trading suspended August 7, 2024; Now on OTC Pink as TWOUQ; Old shareholders received $0 recovery",2026-02-03
+HTZWW,NOT_DELISTED,WARRANT,Hertz Global Holdings,HTZ,"HTZWW is a warrant (not common stock); Hertz filed Chapter 11 May 22, 2020; NYSE delisting October 29, 2020; Emerged from bankruptcy June 30, 2021; Relisted NASDAQ as HTZ November 9, 2021",2026-02-03
+NKLA,NOT_DELISTED_YET,FRAUD,Nikola Corp (still operating),NKLA,Trevor Milton convicted of securities fraud; Sentenced 4 years prison December 2023; Later pardoned by Trump March 2025; Company filed for bankruptcy protection 2025; Announced Form 25 delisting February 2024,2026-02-03
+LLTC,DELISTED,ACQUIRED,Analog Devices,ADI,"Analog Devices acquired Linear Technology for $14.8 billion announced July 27, 2016; Completed March 10, 2017; Shareholders received $46 cash + 0.2321 ADI shares per LLTC share",2026-02-03
+LVLT,DELISTED,ACQUIRED,CenturyLink / Lumen Technologies,LUMN,"CenturyLink acquired Level 3 Communications for ~$34 billion announced October 31, 2016; Completed November 1, 2017; LVLT delisted when merged into CenturyLink, later rebranded to Lumen",2026-02-03
+SHLD,DELISTED,BANKRUPT,ESL Investments (affiliate of Eddie Lampert),SHLDQ,"Filed Chapter 11 October 15, 2018; Delisted from NASDAQ October 24, 2018; Moved to OTC Pink; Assets acquired by ESL for $5.2 billion in February 2019",2026-02-03
+PIR,DELISTED,BANKRUPT,Retail Ecommerce Ventures,Private,"Filed Chapter 11 February 17, 2020; NYSE suspension and delisting February 18, 2020; Business wound down; Brand/IP acquired by REV for $31 million",2026-02-03
+ACXM,TICKER_CHANGED,PARTIAL_SALE,Interpublic Group (AMS division) / LiveRamp (remaining),RAMP,"Acxiom sold Acxiom Marketing Solutions to Interpublic Group for $2.3B (completed October 1, 2018); Remaining company renamed to LiveRamp with ticker RAMP; ACXM no longer exists",2026-02-03
+MXIM,DELISTED,ACQUIRED,Analog Devices,ADI,"Analog Devices completed acquisition August 26, 2021; $21 billion all-stock deal; Shareholders received 0.63 ADI shares per MXIM share; MXIM delisted from NASDAQ",2026-02-03
+CREE,TICKER_CHANGED,COMPANY_RENAME,Wolfspeed (same company),WOLF,"Cree renamed to Wolfspeed effective October 4, 2021; Changed ticker from CREE to WOLF; NOT delisted - transferred from Nasdaq to NYSE October 4, 2021",2026-02-03
+KL,DELISTED,MERGED,Agnico Eagle Mines,AEM,"Agnico Eagle completed merger with Kirkland Lake Gold February 8, 2022 (merger of equals); KL delisted from TSX and NYSE February 9, 2022; Shareholders received 0.2618 AEM shares per KL share",2026-02-03
+INSY,DELISTED,BANKRUPT,Liquidated,,"Insys filed Chapter 11 bankruptcy June 10, 2019; Delisted from Nasdaq June 19, 2019; First opioid company driven to bankruptcy; Founder John Kapoor sentenced 5.5 years; Liquidated",2026-02-03
+EFC,MERGED,MERGER,Ellington Financial (surviving company),EFC,"Ellington Financial completed merger with Arlington Asset Investment Corp December 14, 2023; Combined entity trades as Ellington Financial (EFC); Arlington shares (AAIC) delisted",2026-02-03
+SKX,DELISTED,WENT_PRIVATE,3G Capital,Private,"3G Capital completed acquisition of Skechers September 12, 2025 for $63/share (~$9.4 billion); After 26 years listing, SKX delisted from NYSE; Now private",2026-02-03
+COUP,DELISTED,ACQUIRED,Thoma Bravo,Private,"Thoma Bravo completed acquisition of Coupa Software February 28, 2023 for $81/share (~$8 billion); COUP delisted from Nasdaq; Now private",2026-02-03
+MBLY,IPO_THEN_TENDER,CORPORATE_ACTION,Intel (parent company),MBLY,Mobileye IPO October 2022 after Intel spinout (delisted from NYSE March 2017 following Intel acquisition); Now trades on Nasdaq as MBLY,2026-02-03
+VRSN,STILL_TRADING,NO_CHANGE,Verisign (independent),VRSN,No delisting; Verisign continues trading on NASDAQ; Domain registry business operating normally,2026-02-03
+WLTW,MERGER_TERMINATED,NO_DELISTING,Willis Towers Watson (remained independent),WLTW,"Aon merger announced 2020 valued at ~$30B; Deal terminated July 26, 2021 due to DOJ antitrust opposition; WLTW not delisted; Aon paid $1B break fee",2026-02-03
+JBLU,STILL_TRADING,NO_CHANGE,JetBlue Airways,JBLU,JetBlue continues trading on NASDAQ; No delisting; Airline operating publicly,2026-02-03
+C,STILL_TRADING,NO_CHANGE,Citigroup Inc,C,Citigroup continues trading on NYSE under ticker C; No delisting; Major financial services firm,2026-02-03
+GLOP,DELISTED,ACQUIRED,GasLog Ltd,,"GasLog Ltd acquired GasLog Partners LP; Merger completed July 13, 2023; Trading suspended immediately; Delisting from NYSE effective July 2023; GLOP defunct",2026-02-03
+PXD,DELISTED,ACQUIRED,ExxonMobil,XOM,"ExxonMobil completed acquisition of Pioneer Natural Resources May 3, 2024 for $59.5 billion (largest energy M&A in 20 years); Shareholders received 2.3234 XOM shares per PXD share; PXD delisted from NYSE May 3, 2024",2026-02-03
+ABMD,DELISTED,ACQUIRED,Johnson & Johnson,JNJ,"J&J acquired Abiomed for $16.6 billion; Tender offer announced November 2022; Deal completed December 22, 2022 via Section 251(h) merger; Shareholders received $380/share cash",2026-02-03
+BBBY,DELISTED,BANKRUPT,Overstock.com (asset acquisition),OSTK,"Bed Bath & Beyond filed Chapter 11 April 23, 2023; Delisted from Nasdaq May 3, 2023 (July 20, 2023 official); Overstock acquired Bed Bath & Beyond brand/IP for $21.5M; Assets liquidated",2026-02-03
+CBL,DELISTED,BANKRUPT,Liquidated,CBLAQ,CBL & Associates (mall REIT) filed bankruptcy; Delisted from NYSE; Now trades OTC Pink as CBLAQ,2026-02-03
+EBIX,DELISTED,BANKRUPT,Reorganized (private),EBXQ,"Ebix filed Chapter 11 bankruptcy December 17, 2023; Nasdaq delisting following; Exited Chapter 11 September 2024 as private company",2026-02-03
+ITCI,DELISTED,ACQUIRED,Johnson & Johnson,JNJ,"J&J acquired Intra-Cellular Therapies for $14.6 billion; Deal announced January 2025; Merger closed April 2, 2025; ITCI shareholders received $132/share cash; Delisting from Nasdaq effective April 2, 2025",2026-02-03
+PDCE,DELISTED,ACQUIRED,Chevron Corporation,CVX,Chevron completed acquisition of PDC Energy December 2023; Merger completed following shareholder approval; PDCE delisted from NASDAQ,2026-02-03
+PBFX,DELISTED,DELISTED,,,PBFX (Perforce Software - former ParaBank) delisted from NYSE; No longer actively traded,2026-02-03
+VBIV,DELISTED,BANKRUPT,Delisted (OTC),VBIVQ,"VBI Vaccines filed bankruptcy; Nasdaq delisting effective August 8, 2024; Now trades on OTC Pink as VBIVQ; Earlier July 2024 received delisting notification",2026-02-03
+HALO,DELISTED,DELISTED,,HCANF,Halo Collective announced delisting Q2 2023; Moved to OTC Pink as HCANF; Bankruptcy/financial distress indicated,2026-02-03
+AEROJET,DELISTED,TICKERCHANGE,Aerojet Rocketdyne,AJRD,Aerojet Rocketdyne common stock delisted from NYSE in connection with merger; AJRD ceased trading; Company integrated into larger aerospace firm,2026-02-03
+AKRX,DELISTED,BANKRUPT,Liquidated,AKRXQ,Akorn Inc. filed Chapter 11 bankruptcy May 2020; Delisted; Now trades OTC Pink as AKRXQ; Shareholders received no recovery,2026-02-03
+ANF,STILL_TRADING,NO_CHANGE,Abercrombie & Fitch (independent),ANF,Abercrombie & Fitch continues trading on NYSE; No delisting or merger; Publicly traded since IPO September 1996; Subject to private acquisition speculation but not delisted as of Feb 2026,2026-02-03
+DELL,NOT_DELISTED_BUT_WENT_PRIVATE,WENT_PRIVATE,Michael Dell/Silver Lake Partners,DELL,"Dell went private October 29, 2013 for $24.9B via LBO; Dell-EMC merger closed September 7, 2016; Formed Dell Technologies (private company); Returned to public markets December 28, 2018 via VMware share tracking; Currently trades as DELL",2026-02-03
+EMC,DELISTED,MERGED,Dell Technologies,DELL,"EMC delisted from NYSE August 2, 2016 / September 7, 2016 (conflicting sources) upon close of merger with Dell; EMC shareholders received Dell Technologies shares; Deal valued at $67B",2026-02-03
+JCP,DELISTED,BANKRUPT,Simon Property Group & Brookfield,Private,"JCPenney delisted from NYSE May 18, 2020 (after 91 years); Filed Chapter 11 bankruptcy May 2020; Emerged from bankruptcy December 2020 under ownership of Simon Property Group & Brookfield; Now private",2026-02-03
+MYLAN,DELISTED,MERGED,Viatris (Mylan + Pfizer Upjohn),VTRS,"Mylan merged with Pfizer's Upjohn division November 16, 2020 to create Viatris; Structured as Reverse Morris Trust; MYLAN delisted; New company VIATRIS trades on NASDAQ as VTRS; Mylan shareholders received 43% ownership in VTRS",2026-02-03
+YRCW,DELISTED,BANKRUPT,Liquidated,YRCWQ,"Yellow Corporation (formerly YRC Worldwide) filed Chapter 11 bankruptcy August 6, 2023; Company ceased operations July 29, 2023 after 99 years in business; Delisted from NYSE; Moved to OTC Pink as YRCWQ; 30,000 jobs lost; Still in bankruptcy liquidation",2026-02-03
+SRPT,STILL_TRADING,NO_CHANGE,Sarepta Therapeutics (independent),SRPT,Sarepta Therapeutics continues trading on NASDAQ; No delisting or merger; Biopharmaceutical company developing RNA-targeted therapeutics; No acquisition or delisting as of Feb 2026,2026-02-03
+ORCL,STILL_TRADING,NO_CHANGE,Oracle Corporation (independent),ORCL,Oracle continues trading on NYSE; No delisting or merger; Database and enterprise software giant; FY2025 revenue $57.4B (+8.38% YoY); No acquisition or delisting as of Feb 2026,2026-02-03
+SBUX,STILL_TRADING,NO_CHANGE,Starbucks Corporation (independent),SBUX,Starbucks continues trading on NASDAQ; No delisting or merger; Coffee retailer with global operations; Q1 FY26 comp store sales +4% YoY; No acquisition or delisting as of Feb 2026,2026-02-03
+AVTR,STILL_TRADING,NO_CHANGE,Avantor Inc (independent),AVTR,Avantor continues trading on NYSE; No delisting or merger; Life sciences company; Pending securities class action lawsuit (2024-2025 period); Q3 2025 reported goodwill impairment charge $785M; No delisting as of Feb 2026,2026-02-03
+GILD,STILL_TRADING,ACQUIRER,Gilead Sciences (independent),GILD,Gilead continues trading on NASDAQ; No delisting or merger; Completed acquisition of CymaBay Therapeutics March 2024 for ~$4.3B; CBAY was delisted as result; Gilead remains independent,2026-02-03
+MSFT,STILL_TRADING,NO_CHANGE,Microsoft Corporation (independent),MSFT,Microsoft continues trading on NASDAQ; No delisting or merger; 50th anniversary April 2025; Probability of bankruptcy 1%; Exited Russian market 2025 (subsidiary bankruptcy only); No delisting as of Feb 2026,2026-02-03
+AMZN,STILL_TRADING,NO_CHANGE,Amazon.com Inc (independent),AMZN,Amazon continues trading on NASDAQ; No delisting or merger; 2024 revenue $638B; Probability of bankruptcy 1.83%; No delisting or merger as of Feb 2026,2026-02-03
+ABCO,DELISTED,ACQUIRED,Advisory Board Company (delisted),,The Advisory Board - was delisted from USA exchanges; no longer publicly traded,2026-02-04
+ACLS,NOT_DELISTED_YET,MERGER_PENDING,Veeco Instruments Inc,VECO,Axcelis Technologies merger with Veeco announced October 2025; All-stock merger; Merger proceeds; Director activity ongoing indicating merger advancing through regulatory review,2026-02-04
+ACOR,DELISTED,BANKRUPT,Liquidating,ACORQ,Acorda Therapeutics reached agreement with Merz Therapeutics for asset acquisition; Filed Chapter 11 bankruptcy; Nasdaq delisting notice issued; Now OTC ACORQ,2026-02-04
+ACRX,TICKER_CHANGED,COMPANY_RENAME,Talphera,TLPH,"AcelRx Pharmaceuticals changed ticker from ACRX to TLPH effective January 10, 2024; Company continues as Talphera Inc on Nasdaq",2026-02-04
+ACNB,STILL_TRADING,NO_CHANGE,ACNB Corporation,ACNB,ACNB Corporation continues trading on NASDAQ; $3.25 billion financial holding company headquartered in Gettysburg PA; No delisting,2026-02-04
+ACRE,STILL_TRADING,NO_CHANGE,Ares Commercial Real Estate,ACRE,Ares Commercial Real Estate Corporation continues trading as REIT on NASDAQ; No delisting or merger,2026-02-04
+HA,DELISTED,ACQUIRED,Alaska Air Group,ALK,"Hawaiian Holdings (HA) acquired by Alaska Air Group (ALK); Completed September 2024; HA delisted from NASDAQ September 18, 2024; Shareholders received Alaska Air stock",2026-02-04
+ALCO,NOT_DELISTED_YET,MERGER_PENDING,ALLETE Inc,ALE,"ALLETE Inc entered into merger agreement May 5, 2024; Merger pending; Still trading NASDAQ as ALE",2026-02-04
+AFMD,DELISTED,BANKRUPT,Liquidating,AFMDQ,Affimed N.V. filed for insolvency proceedings (Germany) due to insufficient funding; Received Nasdaq delisting notice; Now trades OTC Pink,2026-02-04
+ADBE,STILL_TRADING,ACQUIRER,Adobe Inc (independent),ADBE,Adobe continues trading on NASDAQ; Acquired 25+ companies including strategic software purchases; No delisting; 2025 actively acquiring,2026-02-04
+AMRS,DELISTED,BANKRUPT,Liquidating,AMRSQ,Amyris Inc filed voluntary Chapter 11 bankruptcy petitions August 2023; Delisted; Now trades OTC Pink as AMRSQ,2026-02-04
+PRTY,DELISTED,BANKRUPT,Liquidated,,Party City filed Ch11 January 2023; Delisted from NYSE; Emerged Sept 2023; Shut down 2024 after ~40 years; Final liquidation; No successor ticker,2026-02-04
+RAD,DELISTED,BANKRUPT,Reorganized,RADQQ,"Rite Aid filed Ch11 October 15, 2023; Plan confirmed August 2024; Effective date August 30, 2024; Delisted; Now trades OTC Pink as RADQQ",2026-02-04
+CATC,DELISTED,DELISTED,,,CATC delisted from NASDAQ; No clear successor or acquiring company identified,2026-02-04
+CIDAC,DELISTED,ACQUIRED,Merck & Co,MRK,Merck announced acquisition November 2025 for $9.2 billion (~$221.50/share); Cidara Therapeutics delisted; Antiviral drug development,2026-02-04
+AKRO,DELISTED,ACQUIRED,Novo Nordisk,NVO,Novo Nordisk acquired Akero Therapeutics for up to $5.2 billion; Obesity drug assets; Delisted from Nasdaq,2026-02-04
+BPSI,NOT_FOUND,POSSIBLE_DELISTING,Unknown,Unknown,Checkpoint Therapeutics status uncertain; reported Sun Pharma acquisition for $355M 2024; needs verification,2026-02-04
+SGEN,DELISTED,ACQUIRED,Pfizer,PFE,Seagen ($43B) acquired by Pfizer 2023; $12.3B largest acquisition in oncology 2023; Delisted from Nasdaq; ADC/oncology medicines,2026-02-04
+SEAG,DELISTED,ACQUIRED,Pfizer,PFE,Seagen - same as SGEN; Pfizer $43 billion acquisition completed 2023; ADCs and oncology drugs,2026-02-04
+BLPH,DELISTED,ACQUIRED,Sanofi,SNY,Blueprint Medicines acquired by Sanofi for $9.5 billion; Completed 2024; Rare disease focus; delisted from Nasdaq,2026-02-04
+HZNP,DELISTED,ACQUIRED,Amgen Inc,AMGN,"Horizon Therapeutics acquired by Amgen in October 2023 for scheme of arrangement; Delisted October 6, 2023; Rare disease/inflammation treatment",2026-02-04
+HBAN,STILL_TRADING,NO_CHANGE,Huntington Bancshares,HBAN,Cadence Bank-Huntington Bancshares merger approved by OCC; HBAN continues trading; merger details pending,2026-02-04
+3V64.TI,NOT_FOUND,UNKNOWN,Unknown,Unknown,International ticker notation (.TI = possibly Telecom Italia or other European exchange); Not found in JARVIS US market data,2026-02-03
+LSXK,DELISTED,RESTRUCTURED,Liberty SiriusXM / New Sirius,SIRI,"Liberty SiriusXM shares ceased trading Sept 9, 2024 following split-off; New Sirius combined with Sirius XM Holdings",2026-02-04
+MAXR,DELISTED,ACQUIRED,Advent International,Private,Maxar Technologies acquired by Advent International in all-cash deal; Delisted TSX; Deal closed May 2023,2026-02-04
+LXRX,DELISTING_PENDING,COMPLIANCE_ISSUE,Lexicon Pharmaceuticals,LXRX,"Lexicon Pharmaceuticals notified of delisting due to bid price below $1 for 31+ days; 180-day cure period until July 2, 2025",2026-02-04
+NVEE,DELISTED,ACQUIRED,Acuren Corporation,Private,"NV5 Global Inc. entered merger agreement with Acuren May 14, 2025; Company to be delisted upon acquisition completion",2026-02-04
+NVVE,DELISTING_PENDING,COMPLIANCE_ISSUE,Nuvve Holding Corp,NVVE,Nuvve received delisting notice due to stock price below $1 and insufficient stockholders equity; Company appealing delisting,2026-02-04
+MGRC,MERGER_TERMINATED,NO_DELISTING,McGrath RentCorp,MGRC,WillScot proposed merger terminated July 2021 due to DOJ antitrust opposition; McGrath paid $180M termination fee; Still trading,2026-02-04
+PCTI,DELISTED,ACQUIRED,Amphenol Corporation,AMP,PCTEL Inc acquired by Amphenol at $7.00/share; Deal announced Oct 2023; PCTI delisted upon completion,2026-02-04
+PYCR,DELISTED,ACQUIRED,Paychex Inc,PAYX,"Paycor merged with Paychex in Jan 2025; Merger closed April 11, 2025; PYCR delisted; Shareholders received $22.50/share cash",2026-02-04
+RCII,DELISTED,ACQUIRED,TowerBrook & Clayton Dubilier Rice,Private,R1 RCM Inc. acquisition completed Nov 2024 for $14.30/share (~$8.9B); Ceased trading on Nasdaq Nov 2024,2026-02-04
+RDFN,DELISTED,ACQUIRED,Rocket Companies Inc,RKT,"Redfin acquired by Rocket Companies; Merger closed July 1, 2025; RDFN shareholders received 0.7926 RKT shares; Delisted Nasdaq",2026-02-04
+SGFY,DELISTED,UNKNOWN,Unknown,Unknown,Signify Health (SGFY) delisted from NYSE; Acquiring company not identified in available sources,2026-02-04
+SMPL,DELISTED,ACQUIRED,Unknown,Unknown,"Smartsheet Inc. delisting completed January 22, 2025; Acquiring company not identified in available search results",2026-02-04
+TACO,DELISTED,SPAC_FAILURE,Berto Acquisition Corp,TACO,Berto Acquisition Corp (TACO) delisted from NASDAQ; SPAC that failed to complete merger or business combination,2026-02-04
+UNP,MERGER_ANNOUNCED,PENDING_MERGER,Norfolk Southern,NS,Union Pacific announced proposed acquisition of Norfolk Southern in July 2025 for ~$85B; Expected to close early 2027,2026-02-04
+USIO,ACQUIRER,ACQUISITION,Usio Inc (acquirer),USIO,Usio acquired PostCredit Co. in November 2025 via all-stock deal; Usio continues trading,2026-02-04
+VAPE,TICKER_CHANGED,COMPANY_RENAME,CEA Industries,BNC,"CEA Industries changed ticker from VAPE to BNC effective August 6, 2025; Company continues trading",2026-02-04
+VAPO,DELISTED,WENT_PRIVATE,Perceptive Advisors,Private,"Vapotherm merged with Perceptive Advisors affiliate entity; Closed September 20, 2024; Company went private",2026-02-04
+VCG,DELISTED,ACQUIRED,Japan Tobacco Group,JTI,Vector Group acquired by JTI (US) subsidiary Vapor Merger for $15.00/share in cash tender offer; Merger completed and delisted,2026-02-04
+XELA,DELISTED,VOLUNTARY_DELISTING,,OTC,Exela Technologies voluntarily delisted from Nasdaq; Market value fell below $35M minimum requirement; Moved to OTC Pink,2026-02-04
+VRVE,DELISTED,ACQUIRED,Eli Lilly,LLY,Verve Therapeutics acquired by Eli Lilly; Upfront ~$1B + up to $1.3B milestones; Delisted upon acquisition,2026-02-04
+SWTX,DELISTED,ACQUIRED,Merck KGaA,Unknown,SpringWorks Therapeutics acquired by Merck KGaA in all-cash deal valued at $3.9B; Rare cancer therapies,2026-02-04
+VRNA,DELISTED,ACQUIRED,Merck KGaA,Unknown,Verona Pharma acquired by Merck KGaA for $10B; COPD treatment Ohtuvayre; Cardio-pulmonary pipeline expansion,2026-02-04
+ESOB,DELISTED,ACQUIRED,AstraZeneca,AZN,EsoBiotec acquired by AstraZeneca for up to $1B; $425M upfront + $575M milestones,2026-02-04
+BPMX,DELISTED,ACQUIRED,GSK,GSK,Boston Pharmaceuticals FGF21 (efimosfermin alfa) acquired by GSK for up to $2B; $1.2B upfront + $800M milestones,2026-02-04
+KRNAY,DELISTED,ACQUIRED,Bristol Myers Squibb,BMY,Karuna Therapeutics acquired by Bristol Myers Squibb for $14B in 2024; Delisted from public markets,2026-02-04
+RNA,DELISTED,ACQUIRED,Novartis AG,NVS,Avidity Biosciences acquired by Novartis for $12B in 2025; $72/share cash deal; Delisted from Nasdaq Oct 2025,2026-02-04
+MTSR,DELISTED,ACQUIRED,Pfizer Inc,PFE,"Metsera acquired by Pfizer for $10B in Nov 2025; GLP-1 obesity pipeline; Delisted from Nasdaq Nov 14, 2025",2026-02-04
+EXAI,DELISTED,MERGED,Recursion Pharmaceuticals,RXRX,"Exscientia merged with Recursion Nov 20, 2024; All-stock deal; EXAI delisted from Nasdaq; RXRX continues trading",2026-02-04
+SWAV,DELISTED,ACQUIRED,Johnson & Johnson,JNJ,"Shockwave Medical acquired by J&J for $13.1B; Deal closed May 31, 2024; $335/share cash; Delisted from Nasdaq",2026-02-04
+HCP,DELISTED,ACQUIRED,IBM Corporation,IBM,HashiCorp acquired by IBM for $6.4B in Feb 2025; $35/share cash deal; Delisted from Nasdaq Feb 2025,2026-02-04
+JNPR,DELISTED,ACQUIRED,Hewlett Packard Enterprise,HPE,"Juniper Networks acquired by HPE for $14B in July 2025; Delisted from NYSE July 2, 2025 after DOJ settlement",2026-02-04
+WKME,DELISTED,ACQUIRED,SAP SE,SAP,"WalkMe acquired by SAP for $1.5B in Sept 2024; $14/share cash; Digital adoption platform; Delisted Sept 12, 2024",2026-02-04
+VRNT,DELISTED,ACQUIRED,Thoma Bravo,Private,Verint Systems acquired by Thoma Bravo for $2B in Nov 2025; $20.50/share; Combined with Calabrio; Delisted Nasdaq,2026-02-04
+SNV,DELISTED,MERGED,Pinnacle Financial Partners,PNFP,"Synovus merged with Pinnacle Financial; Completed Jan 1, 2026; All-stock deal; SNV delisted from NYSE Jan 2, 2026",2026-02-04
+DFS,DELISTED,MERGED,Capital One Financial,COF,"Discover Financial acquired by Capital One for $50.6B; Merged May 18, 2025; 1.0192 COF shares per DFS; Delisted NYSE",2026-02-04
+CIVI,DELISTED,MERGED,SM Energy Company,SM,"Civitas Resources merged with SM Energy Jan 30, 2026; All-stock deal $12.8B; 1.45 SM shares per CIVI; CIVI delisted NYSE",2026-02-04
+MRO,DELISTED,MERGED,ConocoPhillips,COP,"Marathon Oil merged with ConocoPhillips Nov 22, 2024; All-stock $22.5B; 0.255 COP shares per MRO; MRO delisted NYSE",2026-02-04
+SWN,DELISTED,MERGED,Chesapeake Energy / Expand Energy,EXE,"Southwestern Energy merged with Chesapeake Oct 1, 2024; All-stock $7.4B; Combined company rebranded as Expand Energy trading as EXE; SWN delisted",2026-02-04
+SUM,DELISTED,ACQUIRED,Quikrete Holdings,Private,"Summit Materials acquired by Quikrete for $11.5B in Feb 2025; $52.50/share cash; Delisted from NYSE Feb 10, 2025",2026-02-04
+X,DELISTED,ACQUIRED,Nippon Steel,Private,"US Steel acquired by Nippon Steel for $14.9B; Deal completed June 18, 2025; $55/share; Delisted NYSE June 18, 2025",2026-02-04
+CTLT,DELISTED,ACQUIRED,Novo Holdings,Private,Catalent acquired by Novo Holdings for $16.5B in Dec 2024; All-cash $63.50/share; 47.5% premium; Delisted NYSE,2026-02-04
+GOEV,DELISTED,BANKRUPT,Liquidating,GOEVQ,"Canoo Inc. filed Chapter 7 bankruptcy January 2025; Trading suspended Jan 29, 2025; Delisted from Nasdaq",2026-02-04
+AKTS,DELISTED,DELISTED,Unknown,Unknown,"Akoustis Technologies delisted from Nasdaq; Stock suspended December 18, 2024",2026-02-04
+RNIT,DELISTED,BANKRUPT,Liquidating,RNIT,"iLearningEngines filed Chapter 11 bankruptcy; Suspended January 2, 2025; Delisted from Nasdaq",2026-02-04
+WTMG,DELISTED,SPAC_FAILURE,Unknown,Unknown,"Welsbach Technology Metals Acquisition Corp. delisted; Securities suspended January 7, 2025",2026-02-04
+CAPO,DELISTED,SPAC_FAILURE,Unknown,Unknown,"Cartica Acquisition Corp. delisted; Securities suspended January 13, 2025",2026-02-04
+IVAC,DELISTED,ACQUIRED,Seagate Technology,STX,"Intevac acquired by Seagate for equipment business; Merged March 31, 2025; $4/share; Delisted Nasdaq",2026-02-04
+NARI,DELISTED,ACQUIRED,Stryker Corporation,SYK,"Inari Medical acquired by Stryker for $4.9B in Feb 2025; $80/share cash; Delisted Nasdaq Feb 19, 2025",2026-02-04
+ENDP,DELISTED,MERGED,Mallinckrodt plc,MNK,"Endo merged with Mallinckrodt Aug 1, 2025; All-stock/cash deal; ENDP shareholders received $100M cash + 49.9% of combined",2026-02-04
+CPN,DELISTED,ACQUIRED,Constellation Energy,CEG,Calpine acquired by Constellation Energy for $16.4B equity value; Completed Jan 2025; Cash + stock deal; Delisted NYSE,2026-02-04
+SPNS,DELISTING_PENDING,GOING_PRIVATE,Unknown Acquirer,Unknown,Sapiens taken private; Delisting expected Q4 2025 to Q1 2026; Transaction details pending,2026-02-04
+KVUE,TICKER_CHANGE,ACQUIRED,Kimberly-Clark,KMB,Kenvue acquired by Kimberly-Clark for $40B in Nov 2025; Consumer health brands; Status pending - ticker change or delisting,2026-02-04
+FATB,DELISTED,BANKRUPT,Liquidating,FATBQ,"FAT Brands filed Chapter 11 Jan 26, 2026; Twin Hospitality subsidiary; Delisted Nasdaq Feb 4, 2026; Over $1.3B debt",2026-02-04
+SNDR,DELISTED,BANKRUPT,Sonder Holdings,SNDRQ,Sonder Holdings filed Chapter 7 bankruptcy Nov 2025; Delisting from Nasdaq; Expected delisting Q4 2025-Q1 2026,2026-02-04
+ISUN,DELISTED,BANKRUPT,Liquidated,ISUNQ,"iSun Inc. filed bankruptcy; Delisted from Nasdaq effective June 13, 2024; Now trades OTC",2026-02-04
+PPHM,DELISTING_PENDING,COMPLIANCE_ISSUE,ProPhase Labs,PPHM,"ProPhase Labs common stock suspended January 5, 2026; Expected Nasdaq delisting; Compliance failure",2026-02-04
+PROTG,DELISTING_PENDING,COMPLIANCE_ISSUE,Protagenic Therapeutics,PROTG,"Protagenic Therapeutics suspended January 5, 2026; Nasdaq delisting pending; Compliance issues",2026-02-04
+KAVL,DELISTING_PENDING,COMPLIANCE_ISSUE,Kaival Brands,KAVL,"Kaival Brands Innovations Group suspended December 23, 2025; Nasdaq delisting pending",2026-02-04
+ME,DELISTED,GOING_PRIVATE,Unknown Acquirer,Unknown,23andMe Holding Co. delisted from Nasdaq in 2025; Genetic testing company; Delisting details pending,2026-02-04
+CUTR,DELISTED,ACQUIRED,Unknown,Unknown,Cutera Inc. delisted from Nasdaq in 2025; Medical aesthetic device company; Acquiring company not identified,2026-02-04
+TTOO,DELISTED,ACQUIRED,Unknown,Unknown,T2 Biosystems Inc. delisted from Nasdaq in 2025; Rapid diagnostic systems; Acquiring company pending verification,2026-02-04
+PMCI,DELISTED,DELISTED,Unknown,Unknown,Phoenix Motor Inc. delisted from Nasdaq in Nov 2025; Electric vehicles; No acquiring company identified,2026-02-04
+PETX,DELISTED,DELISTED,Unknown,Unknown,Petros Pharmaceuticals Inc. delisted from Nasdaq in Nov 2025; Pharmaceutical development,2026-02-04
+VXRT,DELISTING_PENDING,GOING_PRIVATE,Unknown,Unknown,Vaxart Inc. delisting pending; Oral vaccines company; Status TBD,2026-02-04
+IRBT,DELISTING_PENDING,COMPLIANCE_ISSUE,iRobot,IRBT,iRobot Corporation delisting pending January 2026; Robotic vacuum company; Compliance/performance issues,2026-02-04
+LASR,DELISTING_PENDING,COMPLIANCE_ISSUE,Luminar Technologies,LASR,Luminar Technologies Inc. delisting pending Jan 2026; Lidar technology; Stock performance issues,2026-02-04
+ZYNX,DELISTING_PENDING,COMPLIANCE_ISSUE,Zynex Inc.,ZYNX,Zynex Inc. delisting pending Jan 2026; Medical devices; Compliance determination pending,2026-02-04
+VMW,DELISTED,ACQUIRED,Broadcom Inc,AVGO,"Broadcom completed VMware acquisition Nov 22, 2023 for $61-69B; Shareholders received $142.50 cash or 0.252 AVGO shares; VMW delisted from NYSE",2026-02-04
+S,DELISTED,MERGED,T-Mobile US,TMUS,"Sprint merged with T-Mobile April 1, 2020; All-stock deal; TMUS began trading combined basis under TMUS ticker; Sprint delisted from NYSE",2026-02-04
+TSO,TICKER_CHANGED,RESTRUCTURED,Andeavor (formerly Tesoro),ANDV,"Tesoro merged with Western Refining mid-Nov 2016; Renamed Andeavor Aug 1, 2017; Ticker changed TSO to ANDV; Later acquired by Marathon Petroleum 2018",2026-02-04
+COUPA,DELISTED,ACQUIRED,Unknown Acquirer,Unknown,Coupa Software delisted from Nasdaq; $81/share acquisition price; Complete delisting confirmed February 2024; Acquiring company identity not yet verified,2026-02-04
+VECT,DELISTED,ACQUIRED,Japan Tobacco Group,JTI,Vector Group delisted from NYSE following JTI acquisition; All-cash tender offer $15/share; Completed 2025; Now private subsidiary,2026-02-04
+SUNE,DELISTED,BANKRUPT,Liquidated,SUNEQ,"SunEdison filed Chapter 11 April 21, 2016; Delisted from NYSE May 17, 2016; Emerged from bankruptcy Dec 29, 2017; 1,500+ legal entities",2026-02-04
+RSH,DELISTED,BANKRUPT,General Wireless,Private,"RadioShack delisted from NYSE February 2, 2015; Filed Chapter 11 bankruptcy; Assets purchased by General Wireless April 2015 for $26.2M; Continued as RSHCQ OTC",2026-02-04
+HOLX,DELISTING_PENDING,ACQUIRED,Blackstone / TPG Capital,Private,"Hologic to be acquired by Blackstone and TPG for $79/share (~$18.3B enterprise value); Announced Oct 21, 2025; Delisting pending upon deal close",2026-02-04
+OPI,DELISTED,BANKRUPT,Liquidating,OPITQ,"Office Properties Income Trust filed Chapter 11 Oct 30, 2025 with $2.42B debt; 124 office buildings; Delisted from Nasdaq Oct 6, 2025; Now trades OTC Pink as OPITQ",2026-02-04
+EQC,DELISTED,LIQUIDATED,Liquidated,EQC,"Equity Commonwealth liquidated; Last trading day NYSE April 21, 2025; Paid final cash liquidating distribution; Full delisting from NYSE",2026-02-04
+PEI,DELISTED,BANKRUPTCY,Liquidating,PEIAQ,"Pennsylvania REIT delisted April 1, 2024; Bankruptcy proceedings; Now trades OTC Pink as PEIAQ",2026-02-04
+HSE,DELISTED,ACQUIRED,Chevron Corporation,CVX,"Hess Corporation acquired by Chevron for $171/share (~$53B); Completed July 18, 2025; 1.025 CVX shares per HSE; Delisted from NYSE July 18, 2025",2026-02-04
+NDSN,DELISTED,WENT_PRIVATE,Nordstrom Family / El Puerto de Liverpool,Private,Nordstrom taken private by Nordstrom family & Mexican retailer El Puerto de Liverpool; All-cash deal $6.25B; Completed May 2025; Delisted from NYSE,2026-02-04
+FOL,DELISTED,ACQUIRED,Dick's Sporting Goods,DKS,Foot Locker acquired by Dick's Sporting Goods for $2.4B; Deal closed September 2025; Delisted from NYSE upon completion,2026-02-04
+ATSG,DELISTED,WENT_PRIVATE,Stonepeak Infrastructure,Private,Air Transport Services Group taken private by Stonepeak Infrastructure Partners; All-cash deal $3.1B; Completed Q2 2025; Delisting from NYSE Q2 2025,2026-02-04
+NS,MERGER_ANNOUNCED,PENDING_MERGER,Union Pacific,UNP,Norfolk Southern in merger with Union Pacific ($85B); Major railroad consolidation; Expected close early 2027,2026-02-04
+NFLX,ACQUISITION_ANNOUNCED,PENDING_ACQUISITION,External Consortium,Unknown,Netflix acquired Warner Bros. Discovery for $82.7B; Major media/entertainment consolidation; WBD shareholders received stock consideration,2026-02-04
+TECK,MERGER_ANNOUNCED,MERGER_PENDING,Anglo American,AAL,Teck Resources merging with Anglo American ($69B merger of equals); Major mining industry consolidation; Expected close late 2025,2026-02-04
+AAL,MERGER_ANNOUNCED,MERGER_PENDING,Teck Resources,TECK,Anglo American in merger of equals with Teck Resources ($69B); Major mining consolidation; Expected close late 2025,2026-02-04
+PANW,ACQUIRER,ACQUISITION,Palo Alto Networks,PANW,Palo Alto Networks acquired CyberArk (CRWD) for $25B; Cybersecurity consolidation; CRWD delisting pending,2026-02-04
+CRWD,DELISTING_PENDING,ACQUIRED,Palo Alto Networks,PANW,CyberArk acquired by Palo Alto Networks for $25B; Delisting pending upon deal close; $22.75/share,2026-02-04
+EA,ACQUISITION_ANNOUNCED,GOING_PRIVATE,Public Investment Fund / Silver Lake,Private,Electronic Arts acquired by consortium (PIF/Silver Lake/Affinity) for $55B; Gaming company taken private; All-cash deal,2026-02-04
+AXNX,DELISTING_PENDING,ACQUIRED,Boston Scientific,BSX,Axonics Inc. acquired by Boston Scientific; Sacral neuromodulation (SNM) systems; Deal completed November 2024; Delisting pending,2026-02-04
+STAA,DELISTING_PENDING,ACQUIRED,Alcon,ACL,STAAR Surgical acquired by Alcon for $1.5B; EVO Implantable Collamer Lens line; Delisting pending upon deal close,2026-02-04
+VWAX,DELISTED,GOING_PRIVATE,Versant Media (Comcast spin-off),Unknown,"Comcast announced spin-off of cable networks (USA Network, CNBC, MSNBC, Oxygen, E!, SYFY, Golf Channel) as Versant Media Group Inc.; Targeting completion end 2025",2026-02-04
+SGG,DELISTED,BANKRUPT,Restructuring,SGGQ,"Saks Global (Saks Fifth Avenue parent) filed Chapter 11 bankruptcy January 13, 2025; $2.7B leveraged acquisition of Neiman Marcus debt; Delisted from NYSE",2026-02-04
+JOANN,DELISTED,BANKRUPT,Liquidating,JOANNQ,Joann Stores Inc. filed Chapter 11 bankruptcy 2025; All stores liquidated; Physical retail chain wound down; Now OTC Pink,2026-02-04
+EXPRESS,DELISTED,ACQUIRED,Phoenix Retail,Private,Express Inc. assets acquired by Phoenix Retail out of bankruptcy; Apparel retailer delisted; Store closures completed,2026-02-04
+LIBRBF,DELISTED,BANKRUPT,Liquidating,LIBRBFQ,"Liberated Brands Inc. (Quiksilver, ROXY, Billabong, Boardriders) liquidated; 122 stores closed February 2025; Delisted",2026-02-04
+ARAY,DELISTED,DELISTED,,,Array Inc. delisted from NASDAQ in 2024; Status unknown; May be small-cap or OTC transition,2026-02-04
+NUS,DELISTING_PENDING,ACQUIRED,Sunoco LP,SUN,NuStar Energy acquired by Sunoco in May 2024 for $7.3B; Liquids terminal/pipeline operations; Delisting pending upon deal close,2026-02-04
+ERF,DELISTING_PENDING,ACQUIRED,Chord Energy,CKD,Enerplus acquired by Chord Energy; All-stock deal; Williston Basin consolidation; $11B enterprise value; Delisting pending,2026-02-04
+CHX,DELISTING_PENDING,ACQUIRED,Schlumberger,SLB,ChampionX acquired by Schlumberger (SLB) in all-stock deal April 2024; Energy transition/oilfield services; Delisting pending,2026-02-04
+SUNW,DELISTED,DELISTED,,,Sun Microsystems (SUNW) delisted from NASDAQ in 2010 following Oracle acquisition; Historical entry for mapping,2026-02-04
+MSPR,DELISTED,BANKRUPT,Liquidating,MSPRQ,MSP Recovery Inc. (LifeWallet) delisted from Nasdaq; Minimum equity/bid price violations; Market cap <$15M; $128M stockholders deficit; OTC Pink transition,2026-02-04
+DNMR,DELISTED,BANKRUPT,Liquidating,DNMRQ,Danimer Scientific delisted from NYSE; SPAC merger company; Market cap <$15M; $72M losses on $26M revenue in 9M 2024; $381M debt,2026-02-04
+PINST,DELISTED,SPAC_FAILURE,Liquidating,PINST,Pinstripes Inc. (restaurant chain) SPAC merger failure; Filed bankruptcy; Delisted from NASDAQ; Failed de-SPAC transaction,2026-02-04
+DKDCA,DELISTED,SPAC_FAILURE,Unknown,Unknown,DK DeadCo Inc. SPAC shell delisted; No successful merger; Liquidated and delisted from NASDAQ,2026-02-04
+EIGR,DELISTED,BANKRUPT,Liquidating,EIGRQ,Eiger BioPharmaceuticals filed Chapter 11 bankruptcy; Clinical failures and rejections; Asset sale; Liquidating and delisted,2026-02-04
+GRST,DELISTED,BANKRUPT,Restructuring,GRSTQ,Gritstone Bio filed Chapter 11 October 2024; Assets auctioned for $21.2M; R&D operations restructured; Delisted from NASDAQ,2026-02-04
+OMGA,DELISTED,BANKRUPT,Liquidating,OMGAQ,Omega Therapeutics filed Chapter 11 2025; Bid procedures for asset sale; Nasdaq delisting warning; Min bid price non-compliance,2026-02-04
+SAVE,DELISTED,BANKRUPT,Restructured,SAVEQ,Spirit Airlines filed Chapter 11 bankruptcy November 2024; Failed mergers with JetBlue/Frontier; Delisted from NYSE; Exited bankruptcy March 2025,2026-02-04
+MOON,DELISTED,BANKRUPT,Restructuring,MOONQ,Mondee Inc. (travel booking platform) filed Chapter 11 bankruptcy January 2025; Failed earnings report; Delisted from Nasdaq; Asset sale plan,2026-02-04
+AVAV,DELISTING_PENDING,ACQUIRED,Unknown Acquirer,Unknown,AeroVironment acquired in May 2025 for $4.1B; Defense/commercial unmanned systems; Delisting pending upon transaction close,2026-02-04
+TCS,DELISTED,WENT_PRIVATE,Unknown Private Owner,Unknown,Container Store (TCS) suspended from NYSE December 2024; Delisting initiated; Emerged from bankruptcy as private entity,2026-02-04
+HOME,DELISTING_PENDING,BANKRUPTCY,Restructuring,HOMEQ,At Home Group Inc. Chapter 11 restructuring; 26 store closures; $2B debt reduction plan; Delisting pending; Asset sale to Gordon Brothers,2026-02-04
+BIG,DELISTING_PENDING,BANKRUPTCY,Asset Sale,BIGQ,Big Lots Inc. Chapter 11; Deal with Gordon Brothers Retail Partners; Variety Wholesalers acquisition of 200-400 stores; Delisting pending,2026-02-04
+AVXL,DELISTING_PENDING,ACQUIRED,TPG / Corpay,Private,AvidXchange acquired by TPG and Corpay for $2.2B at $10/share; Fintech accounts payable; Delisting from Nasdaq pending close,2026-02-04
+ENV,DELISTING_PENDING,ACQUIRED,Bain Capital,Private,Envestnet acquired by Bain Capital for $4.5B; Financial software vendor (16 of 20 top US banks); Delisting from NYSE pending close,2026-02-04
+KELC,DELISTING_PENDING,ACQUIRED,Mars Inc,Private,"Kellanov (Pringles, Pop-Tarts, Cheez-It, Eggo) acquired by Mars for $36B; Completed end 2025; Consumer snacking; Delisting pending",2026-02-04
+WK,DELISTING_PENDING,ACQUIRED,Ferrero,Private,WK Kellogg Co. acquired by Ferrero (Italian food company); Cereal brands; Delisting pending from NYSE; Deal completed 2025,2026-02-04
+ANSS,DELISTING_PENDING,ACQUIRED,Synopsys Inc,SNPS,Ansys Inc. acquired by Synopsys for ~$35B; EDA/simulation software; Deal announced; Delisting pending upon close,2026-02-04
+ALTM,DELISTING_PENDING,ACQUIRED,Renesas Electronics,Private,Altium Ltd. acquired by Renesas Electronics for ~$5.9B; EDA software provider; Delisting pending upon transaction close,2026-02-04
+FOREVER,DELISTED,BANKRUPT,Liquidating,FOREVERQ,Forever 21 filed Chapter 11 bankruptcy March 2025; 354 US store closures; Liquidating; Fashion fast-retail chain; Delisted,2026-02-04
+HBC,DELISTED,BANKRUPT,Liquidating,HBCQ,Hudson's Bay filed Chapter 11 creditor protection March 2025; 354-year-old retailer; All stores liquidating; Delisted from TSX/NYSE,2026-02-04
+NGG,DELISTED,BANKRUPT,Liquidating,NGGQ,"New Guards Group (Farfetch parent, Palm Angels, Ambush) filed bankruptcy November 2024; Luxury fashion; Delisted",2026-02-04
+DBGI,DELISTED,DELISTED,,,Digital Brands Group Inc. delisted from NASDAQ September 2025; E-commerce company; No successor identified,2026-02-04
+LPCN,DELISTED,BANKRUPT,Liquidating,LPCNQ,Lipella Pharmaceuticals Inc. delisted from NASDAQ 2025; Biotech company; Financial distress; Liquidating,2026-02-04
+ZY,DELISTED,BANKRUPT,Liquidating,ZYVERQ,ZyVersa Therapeutics Inc. delisted from NASDAQ 2025; Immunotherapy company; Clinical failures; Liquidating,2026-02-04
+CRWNL,DELISTED,DELISTED,,,Crown LNG Holdings Limited delisted from NASDAQ 2025; Energy/LNG company; Status pending verification,2026-02-04
+BCLI,DELISTED,BANKRUPT,Liquidating,BCLIQ,Brainstorm Cell Therapeutics Inc. delisted from NASDAQ 2025; Regenerative medicine; Financial distress; Liquidating,2026-02-04
+WAG,DELISTED,DELISTED,,,Wag! Group Co. delisted from NASDAQ 2025; Pet services company; Business model failure; Status pending,2026-02-04
+ONTK,DELISTED,DELISTED,,,Ontrak Inc. delisted from NASDAQ 2025; Healthcare tech company; Compliance failure; Delisting initiated,2026-02-04
+TPIC,DELISTED,DELISTED,,,TPI Composites Inc. delisted from NASDAQ 2025; Wind turbine blade manufacturer; Supply chain issues; Delisting pending,2026-02-04
+ECAC,DELISTED,SPAC_FAILURE,Liquidated,Unknown,Embrace Change Acquisition Corp. delisted from NASDAQ 2025; Failed SPAC; No merger completed; Liquidated,2026-02-04
+MODC,DELISTED,DELISTED,,,ModivCare Inc. delisted from NASDAQ 2025; Healthcare services; Compliance issues; Delisting completed,2026-02-04
+WTRG,DELISTING_PENDING,ACQUIRED,American Water Works,AWK,Essential Utilities acquired by American Water Works for $63B all-stock deal; Water/wastewater utility; Delisting pending upon close,2026-02-04
+AWK,ACQUIRER,ACQUISITION,American Water Works,AWK,American Water Works acquiring Essential Utilities (WTRG) for $63B; Creates $40B regulated utility; Largest in US sector,2026-02-04
+FBK,DELISTED,BANKRUPT,Liquidating,FBKQ,"First Brands Group filed Chapter 11 September 25, 2025; Auto parts supplier; $6B debt; OE aftermarket parts; Delisted",2026-02-04
+EXRO,DELISTED,BANKRUPT,Liquidating,EXROQ,Exro Technologies filed Chapter 7 bankruptcy; EV coil driver supplier; Delisted from TSX; Stellantis supplier,2026-02-04
+IDEX,DELISTED,BANKRUPT,Liquidating,IDEXQ,Ideanomics Inc. filed Chapter 11 December 2024; Financial services/crowdfunding; Nasdaq delisted; Liquidating,2026-02-04
+WHLS,DELISTING_PENDING,BANKRUPTCY,Restructuring,WHLS,Wheel Pros Inc. (Hoonigan) filed prepackaged Chapter 11 September 2024; Auto parts distributor; $1.2B debt; Delisting pending,2026-02-04
+ARR,MERGER_ANNOUNCED,RESTRUCTURE,Restructuring,ARR,Accuride Corp. seeking consensual debt restructuring October 2024; Commercial truck wheel manufacturer; Bankruptcy proceedings ongoing,2026-02-04
+USM,DELISTING_PENDING,ACQUIRED,T-Mobile US,TMUS,US Cellular acquired by T-Mobile for $3.8B; Regional wireless carrier; Deal completed August 2025; Delisting pending,2026-02-04

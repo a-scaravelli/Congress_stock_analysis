@@ -1,0 +1,30 @@
+PPT summary:
+
+1 - no need to put the kpis on the trade size.
+2 - we don't currently say how the R stock and benchmark are calculated. especially that in one we use the capm (and we calculated the B, and we need to tell them how we did it) and the otherone is the actual performance. Correct me if im mistaken. Also we don't say that we use the log of it, and the why!!
+  additionally, the the CAR is positive it means that we are getting compensated more for the risk we are taking, not that we outperformed the marked. the opposite is vice versa, we were paying more risk than what we get for. 
+  
+  specify better that if the congress man closes the position before 12 months, we use that interval, otherwise we go until the 12m. 
+
+  I don't understand the point of the graph on the right, can you explain? same thing for the orange box, its not true and what is the value added? 
+
+3 - slide 3, i like the graph, but I we say that the median is -0.005 like 3 times, only one is enough. add here at the bottom the number total number of trades. and also, since we have these hybrid target variable, i would add the same graphs, but smaller for those positions that were shorter than 12m and those that were 12 months. to see
+
+4 - i like this slide, but a couple of notes, the avg at the top says 48.5 for both. then we are using hit rate as metric, but what if we have 100 trades that do 1% more and 1 trade that has -100%? do you think that it would be better to use median hit rate instead of avg?, or in the graph, with each bar we also add a line with min and max. lets think about it. one important thing. both charts (winner and losers) need to use the same scale on the x axis
+
+5 - i like this graph, the y axis on the right its illegible
+
+6 - this slide should be a way to show some EDA, I would but the difference in avg (or median, consistency is key) car of democrats vs republicans, an bar graph that tells us the difference in avg car if the trade is disclosed 0-10, 10-20, 20-30, 30-40, 40 - 45, 45-50, 50+ after the trade., or if there is a industry match (either 1,2,3) vs no industry match. 
+
+7 - i like the idea of this graph, but like this it makes no sense. we have committees, if its a majority, chair, and lobbied in the same. are this all the committees? if not, why not? I would separete the two. one graph with only committees and graph with the other 3.
+
+8 - i like this but a couple of points. 1 - we use median car, make sure that is consistnet with everything else. (on the right bottom of the slide we say that its the mean). the right Y axis we cannot see it. put the confusion matrix of 85%, and put somewhere the original number of the test set, and show a comparison between 50% treshhold vs original and 85% vs original
+
+9 - model setup ok, i like this but color the bars of the features (dont use green or red) based on categories, give mea proposed categorization of the features
+
+10 - delete
+
+11 - i like the summary but we say that best regressor is politician skill, which is not true? why cite 60% treshhold if its not the best one? use the 85% focusing on less trades, dont talk about dollar simulation. the caveats about the disclosure lag does not make sense, it is impacting the performance? 
+additionally here I would add a small point regarding what more information we could add, especially for the lobby. propose me some ideas
+
+we need to add one slide at the end the tell how we did the matching between ticker - committee, very important, and how we defined the 3 level of matching, and most important how we did lobbying. 

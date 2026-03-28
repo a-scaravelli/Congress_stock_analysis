@@ -1,0 +1,236 @@
+================================================================================
+CONGRESSIONAL TRADING DATASET - DELISTED TICKER RECOVERY
+START HERE
+================================================================================
+
+PROJECT OVERVIEW
+================================================================================
+This directory contains a complete analysis of 815 congressional trading tickers,
+with research identifying which ones were delisted and mapping them to their
+acquiring companies in Snowflake JARVIS.
+
+COVERAGE: 93.5% (762 tickers directly queryable)
+DATA RANGE: 2010-01-04 to 2026-02-03
+LAST UPDATED: February 4, 2026
+
+================================================================================
+⭐ START WITH THESE FILES
+================================================================================
+
+1. README_CONGRESSIONAL_TRADING_DATASET.md
+   ↳ Complete guide for your student
+   ↳ Read this first for step-by-step instructions
+   ↳ Includes examples, troubleshooting, and analysis workflows
+
+2. TICKER_MAPPING_WITH_DAILY_DATA.csv
+   ↳ Use this for EVERY lookup
+   ↳ Maps original tickers → updated tickers for Snowflake
+   ↳ Includes prices, returns, and data availability
+
+3. delisted_tickers_research.csv
+   ↳ Details on 151 researched tickers (29.5% of dataset)
+   ↳ Shows what happened to delisted companies
+   ↳ Acquisition dates, acquiring companies, deal values
+
+================================================================================
+FILES BY PURPOSE
+================================================================================
+
+FOR QUICK LOOKUPS:
+  → TICKER_MAPPING_WITH_DAILY_DATA.csv
+
+FOR UNDERSTANDING DELISTINGS:
+  → delisted_tickers_research.csv
+  → ALL_ACQUIRING_COMPANIES_FINAL.txt
+
+FOR RESEARCH CONTEXT:
+  → COMPREHENSIVE_ACQUIRING_COMPANIES.txt
+  → FINAL_COVERAGE_ANALYSIS.md
+
+FOR METHODOLOGY:
+  → README_CONGRESSIONAL_TRADING_DATASET.md
+  → FINAL_RESEARCH_OUTPUT.md
+
+ORIGINAL DATA:
+  → Failed_Tickers.xlsx (original congressional trades with delisting info)
+
+================================================================================
+QUICK START (3 STEPS)
+================================================================================
+
+Step 1: Find your congressional trade ticker
+  Example: Rep. X bought SPLK stock on Feb 15, 2024
+
+Step 2: Look up in TICKER_MAPPING_WITH_DAILY_DATA.csv
+  → Find "SPLK" in ticker_symbol column
+  → See updated_ticker_for_data = "CSCO" (acquired by Cisco)
+  → Check status = "ACQUIRED"
+  → Check data available from 2010-2026
+
+Step 3: Query Snowflake for the UPDATED ticker
+  → SELECT date, open, high, low, close, volume
+  → FROM JARVIS.LSEG_DAILY
+  → WHERE ticker = 'CSCO'
+  → AND date = '2024-02-15'
+  → Use CSCO price as your data point
+
+That's it! You now have price data for the delisted ticker.
+
+================================================================================
+KEY STATISTICS
+================================================================================
+
+Total Tickers Analyzed:                    815
+  Directly accessible in JARVIS:          609 (74.8%)
+  Via acquiring companies:                153 (18.8%)
+  Unreachable:                             53 (6.5%)
+                                         -----
+  TOTAL COVERAGE:                         762 (93.5%)
+
+Daily Data Points Available:              227,624+
+Date Range:                               2010-2026 (16 years)
+Acquiring Companies Identified:           70+ unique
+M&A Transaction Value Captured:           $630+ billion
+
+Top 3 Deals:
+  1. PXD → ExxonMobil (XOM):        $59.5B
+  2. DFS → Capital One (COF):       $50.6B
+  3. SGEN → Pfizer (PFE):           $43.0B
+
+================================================================================
+DATA QUALITY
+================================================================================
+
+✅ What we have:
+   - 93.5% coverage of congressional trading tickers
+   - All major M&A deals captured ($630B+)
+   - 16 years of daily OHLC data (2010-2026)
+   - Adjusted prices (splits/dividends handled)
+   - Multiple exchanges covered (NYSE, NASDAQ, etc.)
+
+⚠️ Limitations:
+   - ~6.5% gap (small-caps, international, private equity)
+   - Some tickers trade on multiple exchanges (pick primary)
+   - Delisting dates matter for trade mapping
+   - Pre-delisting data may be limited for recent delistings
+
+================================================================================
+NEXT STEPS FOR YOUR STUDENT
+================================================================================
+
+1. READ: README_CONGRESSIONAL_TRADING_DATASET.md
+   (Takes ~15 minutes, explains everything)
+
+2. EXTRACT: List of congressional trading tickers
+   (From the original Failed_Tickers.xlsx)
+
+3. LOOKUP: For each ticker, find in TICKER_MAPPING_WITH_DAILY_DATA.csv
+   (Note the updated ticker to use)
+
+4. VERIFY: Check data availability and date ranges
+   (Make sure data exists for trade dates)
+
+5. QUERY: Snowflake JARVIS for OHLC data
+   (Use updated ticker from mapping CSV)
+
+6. ANALYZE: Compare returns, volumes, patterns
+   (Now you have real data for the analysis)
+
+================================================================================
+COMMON ISSUES & SOLUTIONS
+================================================================================
+
+Q: Can't find a ticker in the mapping?
+A: Check spelling, try delisted_tickers_research.csv, or it might be in the
+   ~53 unreachable ones (international/private equity/small-cap).
+
+Q: Updated_ticker_for_data is blank or same as original?
+A: That's normal - the company still trades, use it directly in Snowflake.
+
+Q: What if the congressional trade date is after the acquisition date?
+A: The stock would have stopped trading under the original ticker. Use the
+   acquiring company's ticker, or it might be data entry error in the original.
+
+Q: Multiple rows for the same ticker?
+A: Normal - companies trade on multiple exchanges. Pick the one with most
+   data_points (usually US primary exchange).
+
+See README_CONGRESSIONAL_TRADING_DATASET.md for full troubleshooting section.
+
+================================================================================
+SNOWFLAKE QUERY EXAMPLES
+================================================================================
+
+Get daily data for a ticker:
+  SELECT date, open, high, low, close, volume
+  FROM JARVIS.LSEG_DAILY
+  WHERE ticker = 'CSCO'
+  AND date BETWEEN '2024-02-01' AND '2024-03-31'
+
+Get returns:
+  SELECT date, close,
+         ROUND((close - LAG(close) OVER (ORDER BY date)) /
+               LAG(close) OVER (ORDER BY date) * 100, 2) as daily_return_pct
+  FROM JARVIS.LSEG_DAILY
+  WHERE ticker = 'CSCO'
+
+Get summary stats:
+  SELECT MIN(close) as min_price, MAX(close) as max_price,
+         AVG(close) as avg_price, COUNT(*) as trading_days
+  FROM JARVIS.LSEG_DAILY
+  WHERE ticker = 'CSCO'
+  AND date BETWEEN '2024-02-01' AND '2024-03-31'
+
+See README for more examples.
+
+================================================================================
+CONTACT & QUESTIONS
+================================================================================
+
+This data was generated through systematic research of:
+  - 512 delisted/missing tickers
+  - 151 individually researched (29.5%)
+  - 70+ acquiring companies identified
+  - All major M&A deals captured
+
+For detailed methodology: See FINAL_RESEARCH_OUTPUT.md
+For troubleshooting: See README_CONGRESSIONAL_TRADING_DATASET.md
+For specific ticker research: See delisted_tickers_research.csv
+
+================================================================================
+FILE ORGANIZATION
+================================================================================
+
+THIS DIRECTORY CONTAINS:
+
+START_HERE.txt (this file)
+├─ Quick orientation
+
+README_CONGRESSIONAL_TRADING_DATASET.md
+├─ Complete student guide (START HERE FOR DETAILS)
+
+TICKER_MAPPING_WITH_DAILY_DATA.csv
+├─ Use for every ticker lookup
+
+delisted_tickers_research.csv
+├─ Research on 151 delisted tickers
+
+ALL_ACQUIRING_COMPANIES_FINAL.txt
+├─ List of 70+ acquiring companies
+
+COMPREHENSIVE_ACQUIRING_COMPANIES.txt
+├─ Detailed breakdown with deal values
+
+FINAL_RESEARCH_OUTPUT.md (or similar)
+├─ Statistical summary and coverage analysis
+
+Failed_Tickers.xlsx
+├─ Original congressional trades data
+
+================================================================================
+READY TO START? →  OPEN README_CONGRESSIONAL_TRADING_DATASET.md
+================================================================================
+
+Last Updated: February 4, 2026
+Coverage: 762 / 815 tickers (93.5%)
+Status: Ready for analysis ✓

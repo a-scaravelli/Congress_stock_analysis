@@ -183,7 +183,7 @@ def process_ticker_data(max_calls=0):
         pl.col("Filed").str.to_date(strict=False)
     ]).filter(
     (pl.col("Ticker") != "N/A") &
-    ((pl.col("TickerType") == "Stock") | (pl.col("TickerType") == "ST")) #&
+    (pl.col("TickerType").is_in(["Stock", "ST", "CS", "PS"])) #&
     #(pl.col("Ticker") == "AAIGF")
     
     

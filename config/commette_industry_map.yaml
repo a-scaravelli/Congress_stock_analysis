@@ -1,0 +1,491 @@
+# ==============================================================================
+# CONGRESSIONAL COMMITTEE TRADING RULES (TIERED)
+# ==============================================================================
+# TIER DEFINITIONS:
+# 3 (strong): DIRECT JURISDICTION. Committee controls budget/contracts/laws.
+# 2 (medium): OVERSIGHT. Committee sets general rules/taxes.
+# 1 (low):    TANGENTIAL. General legislative impact only.
+#
+# CATEGORY DEFINITIONS (higher-level grouping of committees):
+# defense_security     — Military budgets, intelligence, arms exports, sanctions
+# finance_housing      — Banking regulation, insurance, SEC, housing, REITs
+# fiscal_policy        — Tax policy, tariffs, trade, government revenue
+# energy_environment   — Energy regulation, EPA, pipelines, mining, utilities
+# health_labor         — FDA, drug pricing, hospitals, education, wages
+# commerce_technology  — FCC, antitrust, tech regulation, consumer protection
+# agriculture          — Farm bill, food supply, CFTC, forestry
+# infrastructure       — FAA, highways, railroads, freight
+# oversight            — Government waste/fraud investigations
+# ==============================================================================
+
+# ==============================================================================
+# CATEGORIES — higher-level grouping for condensed analysis
+# ==============================================================================
+categories:
+  defense_security:
+    name: "Defense & National Security"
+    committees: [HSAS, SSAS, HLIG, SSFR]
+  finance_housing:
+    name: "Finance, Banking & Housing"
+    committees: [HSBA, SSBK]
+  fiscal_policy:
+    name: "Tax, Trade & Fiscal Policy"
+    committees: [HSWM, SSFI]
+  energy_environment:
+    name: "Energy & Environment"
+    committees: [HSIF, SSEG, SSEV]
+  health_labor:
+    name: "Health, Education & Labor"
+    committees: [SSHR, HSED]
+  commerce_technology:
+    name: "Commerce, Tech & Consumer Protection"
+    committees: [SSCM, HSJU]
+  agriculture:
+    name: "Agriculture & Food"
+    committees: [HSAG, SSAF]
+  infrastructure:
+    name: "Transportation & Infrastructure"
+    committees: [HSPW]
+  oversight:
+    name: "Government Oversight"
+    committees: [HSGO]
+
+# ==============================================================================
+# COMMITTEES — individual committee definitions
+# ==============================================================================
+committees:
+
+  # --- HOUSE COMMITTEES ---
+
+  HSAS:
+    name: "House Armed Services"
+    category: defense_security
+    sectors:
+      Industrials: 2
+      Technology: 1
+    industries:
+      Aerospace & Defense: 3            # CRITICAL: They authorize NDAA contracts
+      Marine Shipping: 3                # Navy shipbuilding
+      Uranium: 2                        # Strategic reserves/Nuclear
+      Information Technology Services: 1
+      Communication Equipment: 1
+      Security & Protection Services: 2 # Defense-related security contractors
+      Electronic Components: 1          # Military electronics supply chain
+      Scientific & Technical Instruments: 1 # Defense sensors/instruments
+
+  HSIF:
+    name: "House Energy & Commerce"
+    category: energy_environment
+    description: "The 'Everything' Committee - huge regulatory power"
+    sectors:
+      Energy: 3
+      Healthcare: 3
+      Utilities: 3
+      Communication Services: 2
+      Technology: 2
+      Consumer Defensive: 1
+    industries:
+      Drug Manufacturers - General: 3    # FDA oversight
+      Drug Manufacturers - Specialty & Generic: 3 # FDA oversight
+      Biotechnology: 3
+      Medical Devices: 3
+      Medical Instruments & Supplies: 2  # FDA device regulation
+      Diagnostics & Research: 2          # FDA/lab regulation
+      Health Information Services: 2     # HIPAA/health data regulation
+      Medical Distribution: 2            # Drug supply chain oversight
+      Healthcare Plans: 3
+      Medical Care Facilities: 2         # CMS/Medicare regulation
+      Telecom Services: 3                # FCC oversight
+      Broadcasting: 3                    # FCC licensing
+      Utilities - Regulated Electric: 3
+      Utilities - Regulated Gas: 3       # Pipeline safety/FERC
+      Utilities - Diversified: 2         # General utility regulation
+      Utilities - Independent Power Producers: 2 # FERC wholesale markets
+      Oil & Gas Integrated: 3            # EPA oversight
+      Oil & Gas Midstream: 2             # Pipeline permitting
+      Oil & Gas Equipment & Services: 2  # Safety regulations
+      Oil & Gas Refining & Marketing: 2  # EPA/emissions standards
+      Oil & Gas Drilling: 2              # Environmental regulation
+      Internet Content & Information: 2  # Privacy/Section 230
+      Consumer Electronics: 2            # FCC device certification
+      Household & Personal Products: 2   # FDA/consumer safety
+      Tobacco: 3                         # FDA tobacco regulation
+      Beverages - Non-Alcoholic: 1       # FDA food safety
+      Beverages - Brewers: 1             # FDA labeling
+      Beverages - Wineries & Distilleries: 1 # FDA labeling
+      Confectioners: 1                   # FDA food safety
+      Specialty Chemicals: 2             # EPA/TSCA chemical regulation
+      Chemicals: 2                       # EPA/TSCA chemical regulation
+      Electrical Equipment & Parts: 1   # Energy efficiency standards
+
+  HSWM:
+    name: "House Ways & Means"
+    category: fiscal_policy
+    description: "Tax Policy - affects profitability directly"
+    sectors:
+      Financial Services: 2
+      Healthcare: 2
+      Energy: 2
+      Consumer Cyclical: 1
+      Basic Materials: 1
+    industries:
+      Solar: 3                          # Tax Credits (ITC)
+      Utilities - Renewable: 3          # Tax Credits (PTC)
+      Auto Manufacturers: 2             # EV Tax Credits
+      Drug Manufacturers - General: 2   # Tax penalties on pricing
+      Steel: 2                          # Tariffs
+      Aluminum: 2                       # Tariffs
+      Apparel Manufacturing: 1          # Import tariffs
+      Footwear & Accessories: 1         # Import tariffs
+      Textile Manufacturing: 1          # Import tariffs
+      Luxury Goods: 1                   # Import tariffs
+      Specialty Chemicals: 1            # Trade policy
+      Internet Retail: 1                # E-commerce sales tax
+      Packaging & Containers: 1         # Tariffs on materials
+
+  HSBA:
+    name: "House Financial Services"
+    category: finance_housing
+    sectors:
+      Financial Services: 3
+      Real Estate: 2
+    industries:
+      Banks - Diversified: 3            # Fed/SEC rules
+      Banks - Regional: 3
+      Asset Management: 3
+      Capital Markets: 3
+      Credit Services: 3
+      Mortgage Finance: 3               # Fannie/Freddie oversight
+      Financial Data & Stock Exchanges: 3 # SEC/Crypto rules
+      Financial Conglomerates: 3        # Systemic risk/Dodd-Frank
+      Insurance - Diversified: 2
+      Insurance - Property & Casualty: 2 # Federal insurance oversight
+      Insurance - Life: 2               # Federal insurance oversight
+      Insurance - Specialty: 2          # Federal insurance oversight
+      Insurance - Reinsurance: 2        # Systemic risk
+      Insurance Brokers: 2              # Federal regulation
+      REIT - Diversified: 2
+      REIT - Retail: 2                  # Real estate/housing policy
+      REIT - Office: 2
+      REIT - Mortgage: 3               # Mortgage market regulation
+      REIT - Residential: 2            # Housing policy
+      REIT - Industrial: 2
+      REIT - Hotel & Motel: 2
+      REIT - Specialty: 2
+      REIT - Healthcare Facilities: 2
+      Real Estate Services: 2           # Housing/lending policy
+      Real Estate - Diversified: 2
+      Real Estate - Development: 2
+      Residential Construction: 2       # Housing policy/Fannie-Freddie
+      Rental & Leasing Services: 1      # Consumer lending rules
+      Home Improvement Retail: 1        # Housing-adjacent
+
+  HSPW:
+    name: "House Transportation & Infrastructure"
+    category: infrastructure
+    sectors:
+      Industrials: 2
+      Energy: 1
+    industries:
+      Airlines: 3                       # FAA Reauthorization
+      Railroads: 3                      # Safety regulations
+      Engineering & Construction: 3     # Infrastructure spending bills
+      Trucking: 2
+      Marine Shipping: 2
+      Integrated Freight & Logistics: 2 # Freight regulation
+      Airports & Air Services: 3        # FAA/airport funding
+      Infrastructure Operations: 2      # Infrastructure bills
+      Building Products & Equipment: 1  # Infrastructure demand
+      Building Materials: 1             # Infrastructure demand
+      Travel Services: 1                # Transportation-adjacent
+      Electrical Equipment & Parts: 1   # Infrastructure electrical systems
+
+  HLIG:
+    name: "House Intelligence"
+    category: defense_security
+    sectors:
+      Industrials: 2
+      Technology: 2
+    industries:
+      Aerospace & Defense: 3            # Classified satellite/spy contracts
+      Software - Infrastructure: 3      # Cybersecurity (NSA/Cyber Command)
+      Semiconductors: 2                 # Export controls (China)
+      Semiconductor Equipment & Materials: 2 # Export controls (China)
+      Security & Protection Services: 2 # Intelligence contracting
+
+  HSAG:
+    name: "House Agriculture"
+    category: agriculture
+    sectors:
+      Consumer Defensive: 2
+      Basic Materials: 1
+      Financial Services: 1
+    industries:
+      Farm Products: 3                  # Farm Bill subsidies
+      Agricultural Inputs: 3            # Fertilizer/Seed regulation
+      Packaged Foods: 2
+      Financial Data & Stock Exchanges: 2 # CFTC (Derivatives/Futures)
+      Farm & Heavy Construction Machinery: 2 # Farm equipment tied to farm policy
+      Food Distribution: 2              # Farm-to-table supply chain
+      Grocery Stores: 1                 # Food safety/SNAP
+      Lumber & Wood Production: 2       # Forestry/USDA
+      Confectioners: 1                  # Sugar subsidies
+
+  HSED:
+    name: "House Education & Labor"
+    category: health_labor
+    sectors:
+      Consumer Cyclical: 2
+      Consumer Defensive: 1
+    industries:
+      Education & Training Services: 3  # Student Loan policy
+      Staffing & Employment Services: 2
+      Restaurants: 2                    # Minimum wage laws
+      Lodging: 1                        # Labor regulations
+      Personal Services: 1              # Labor regulations
+      Department Stores: 1              # Labor/minimum wage
+      Discount Stores: 1                # Labor/minimum wage
+      Specialty Retail: 1               # Labor/minimum wage
+      Apparel Retail: 1                 # Labor regulations
+      Leisure: 1                        # Labor regulations
+      Resorts & Casinos: 1              # Labor regulations
+      Furnishings, Fixtures & Appliances: 1 # Labor regulations
+      Internet Retail: 1                # Labor/gig worker policy
+      Recreational Vehicles: 1          # Manufacturing labor
+      Home Improvement Retail: 1        # Retail labor
+      Gambling: 1                       # Labor regulations
+
+  HSJU:
+    name: "House Judiciary"
+    category: commerce_technology
+    sectors:
+      Technology: 2
+      Communication Services: 2
+    industries:
+      Internet Content & Information: 2 # Antitrust (Google/Meta)
+      Software - Infrastructure: 2
+      Software - Application: 2         # Antitrust/IP/patent law
+      Entertainment: 2                  # Copyright/IP law
+      Electronic Gaming & Multimedia: 1 # IP/content regulation
+      Publishing: 1                     # Copyright law
+      Gambling: 1                       # Federal gambling law/interstate
+
+  HSGO:
+    name: "House Oversight & Accountability"
+    category: oversight
+    description: "Investigative body - 'Headline Risk' for scandals/waste"
+    sectors:
+      Industrials: 2               # Investigating Defense Contractor fraud
+      Healthcare: 2                # Investigating Drug Pricing
+      Technology: 1                # Content moderation/Privacy hearings
+    industries:
+      Aerospace & Defense: 2       # Waste/Fraud investigations
+      Drug Manufacturers - General: 3 # High risk of "Shaming Hearings"
+      Staffing & Employment Services: 2 # Government contractor oversight
+      Engineering & Construction: 2 # Infrastructure waste
+      Information Technology Services: 2 # Federal IT contracts
+      Consulting Services: 2       # Government consulting contracts
+
+  # --- SENATE COMMITTEES ---
+
+  SSBK:
+    name: "Senate Banking"
+    category: finance_housing
+    sectors:
+      Financial Services: 3
+      Real Estate: 2
+    industries:
+      Banks - Diversified: 3
+      Banks - Regional: 3
+      Capital Markets: 3
+      Credit Services: 3
+      Mortgage Finance: 3
+      Financial Data & Stock Exchanges: 3
+      Financial Conglomerates: 3        # Systemic risk/Dodd-Frank
+      Insurance - Property & Casualty: 2 # Federal insurance oversight
+      Insurance - Life: 2
+      Insurance - Specialty: 2
+      Insurance - Reinsurance: 2
+      Insurance Brokers: 2
+      REIT - Mortgage: 3               # Mortgage market regulation
+      REIT - Retail: 2
+      REIT - Office: 2
+      REIT - Residential: 2
+      REIT - Industrial: 2
+      REIT - Hotel & Motel: 2
+      REIT - Specialty: 2
+      REIT - Healthcare Facilities: 2
+      Real Estate Services: 2
+      Real Estate - Diversified: 2
+      Real Estate - Development: 2
+      Residential Construction: 2       # Housing policy
+
+  SSFI:
+    name: "Senate Finance"
+    category: fiscal_policy
+    description: "Senate equivalent of Ways & Means (Taxes)"
+    sectors:
+      Healthcare: 2
+      Energy: 2
+      Financial Services: 1
+      Consumer Cyclical: 1
+      Basic Materials: 1
+    industries:
+      Drug Manufacturers - General: 3   # Medicare pricing
+      Healthcare Plans: 3
+      Solar: 3                          # Green energy tax credits
+      Utilities - Renewable: 3
+      Auto Manufacturers: 2             # EV tax credits
+      Steel: 2                          # Tariffs
+      Aluminum: 2                       # Tariffs
+      Tobacco: 2                        # Excise taxes
+      Beverages - Brewers: 1            # Excise taxes
+      Beverages - Wineries & Distilleries: 1 # Excise taxes
+
+  SSCM:
+    name: "Senate Commerce, Science & Transportation"
+    category: commerce_technology
+    sectors:
+      Communication Services: 3
+      Technology: 2
+      Industrials: 2
+    industries:
+      Telecom Services: 3               # FCC Confirmation
+      Airlines: 3                       # FAA Oversight
+      Broadcasting: 3                   # FCC oversight
+      Railroads: 2
+      Semiconductors: 2                 # CHIPS Act implementation
+      Semiconductor Equipment & Materials: 2 # CHIPS Act supply chain
+      Internet Content & Information: 2
+      Software - Application: 1         # Tech regulation/privacy
+      Computer Hardware: 1              # Tech standards
+      Electronic Components: 1          # Tech manufacturing
+      Electronics & Computer Distribution: 1 # Tech supply chain
+      Consumer Electronics: 1           # Product safety/standards
+      Entertainment: 1                  # Media regulation
+      Electronic Gaming & Multimedia: 1 # Online regulation
+      Advertising Agencies: 1           # FTC consumer protection
+      Auto Parts: 1                     # Vehicle safety (NHTSA)
+      Auto & Truck Dealerships: 1       # Consumer protection
+      Trucking: 1                       # Safety regulation
+      Travel Services: 1                # Consumer protection
+      Specialty Industrial Machinery: 1 # Manufacturing/standards
+      Scientific & Technical Instruments: 1 # Science funding
+      Conglomerates: 1                  # Broad commerce/antitrust
+      Industrial Distribution: 1        # Supply chain/commerce
+      Tools & Accessories: 1            # Manufacturing standards
+      Specialty Business Services: 1    # Commerce regulation
+      Metal Fabrication: 1              # Manufacturing/trade
+      Business Equipment & Supplies: 1  # Commerce
+      Furnishings, Fixtures & Appliances: 1 # Consumer product safety
+      Packaging & Containers: 1         # Product standards
+      Recreational Vehicles: 1          # Vehicle safety (NHTSA)
+      Resorts & Casinos: 1              # Indian gaming regulation
+      Leisure: 1                        # Consumer protection
+
+  SSAF:
+    name: "Senate Agriculture"
+    category: agriculture
+    sectors:
+      Consumer Defensive: 2
+      Basic Materials: 1
+      Financial Services: 1
+    industries:
+      Farm Products: 3
+      Agricultural Inputs: 3
+      Financial Data & Stock Exchanges: 2 # CFTC oversight
+      Packaged Foods: 2
+      Farm & Heavy Construction Machinery: 2 # Farm equipment
+      Food Distribution: 2              # Agricultural supply chain
+      Lumber & Wood Production: 2       # Forestry policy
+
+  SSEV:
+    name: "Senate Environment & Public Works"
+    category: energy_environment
+    sectors:
+      Utilities: 2
+      Industrials: 1
+      Basic Materials: 1
+    industries:
+      Utilities - Regulated Water: 3    # Clean Water Act
+      Waste Management: 3               # EPA Regs
+      Pollution & Treatment Controls: 3
+      Engineering & Construction: 2     # Highway funding
+      Specialty Chemicals: 2            # EPA/chemical regulation
+      Chemicals: 2                      # EPA/chemical regulation
+      Paper & Paper Products: 1         # Environmental regulation
+      Building Materials: 1             # Environmental standards
+      Infrastructure Operations: 2      # Highway/infrastructure bills
+      Thermal Coal: 2                   # Environmental regulation
+      Oil & Gas Refining & Marketing: 1 # Emissions standards
+
+  SSEG:
+    name: "Senate Energy & Natural Resources"
+    category: energy_environment
+    sectors:
+      Energy: 3
+      Utilities: 2
+      Basic Materials: 2
+    industries:
+      Oil & Gas Integrated: 3           # Drilling permits
+      Oil & Gas E&P: 3
+      Oil & Gas Midstream: 3            # Pipeline permitting
+      Oil & Gas Equipment & Services: 2 # Energy industry regulation
+      Oil & Gas Refining & Marketing: 2 # Refinery/energy policy
+      Oil & Gas Drilling: 3             # Drilling permits on federal land
+      Thermal Coal: 2                   # Mining/energy policy
+      Utilities - Regulated Electric: 2
+      Utilities - Regulated Gas: 2      # Natural gas regulation
+      Utilities - Diversified: 2
+      Utilities - Independent Power Producers: 2 # Wholesale markets
+      Other Industrial Metals & Mining: 2 # Critical minerals (Lithium)
+      Gold: 2                           # Mining on federal land
+      Copper: 2                         # Critical minerals
+      Other Precious Metals & Mining: 2 # Mining regulation
+      Lumber & Wood Production: 1       # National forest resources
+
+  SSAS:
+    name: "Senate Armed Services"
+    category: defense_security
+    sectors:
+      Industrials: 2
+      Technology: 1
+    industries:
+      Aerospace & Defense: 3            # NDAA Authorizer
+      Marine Shipping: 3
+      Uranium: 2
+      Security & Protection Services: 2 # Defense security contractors
+      Electronic Components: 1          # Military supply chain
+
+  SSFR:
+    name: "Senate Foreign Relations"
+    category: defense_security
+    sectors:
+      Energy: 2
+      Industrials: 1
+    industries:
+      Oil & Gas Integrated: 2           # Sanctions (Russia/Iran)
+      Aerospace & Defense: 2            # Foreign Arms Sales approval
+      Gold: 1                           # Sanctions/reserves
+
+  SSHR:
+    name: "Senate HELP (Health, Education, Labor)"
+    category: health_labor
+    sectors:
+      Healthcare: 3
+      Consumer Defensive: 1
+      Consumer Cyclical: 1
+    industries:
+      Biotechnology: 3                  # FDA/CDC oversight
+      Drug Manufacturers - General: 3
+      Drug Manufacturers - Specialty & Generic: 3 # FDA approval/pricing
+      Medical Care Facilities: 3
+      Medical Devices: 2                # FDA device oversight
+      Medical Instruments & Supplies: 2 # FDA regulation
+      Diagnostics & Research: 2         # Lab/diagnostic oversight
+      Health Information Services: 2    # HIPAA/health IT
+      Medical Distribution: 2           # Drug supply chain
+      Education & Training Services: 3
+      Staffing & Employment Services: 2 # Labor policy
+      Restaurants: 1                    # Minimum wage
+      Household & Personal Products: 1  # Consumer safety/FDA

@@ -1,0 +1,91 @@
+execution_plan:
+  - step: 1
+    script: "src/ingestion/download_quant_files.py"
+    action: "Downloads bulk congressional trading data from the QuiverQuant API and saves it locally."
+    requirements:
+      - "config/quiverquant.json (Must contain valid 'Authorization Token')"
+    outputs:
+      - "data/trades/congress_trades_full.xlsx"
+      - "data/trades/congress_trades_full.parquet"
+
+  - step: 2
+    script: "src/ingestion/extract_stock_data.py"
+    action: "Reads the trade data, identifies unique tickers (TickerType: Stock, ST, CS, PS), and downloads historical price data (Open + Close) for each from Yahoo Finance using bfill resampling."
+    requirements:
+      - "data/trades/congress_trades_full.parquet (Output from Step 1)"
+    outputs:
+      - "data/stocks/metadata.json"
+      - "data/stocks/parquet_files/{ticker}.parquet"
+      - "data/stocks/csv_files/{ticker}.csv"
+      - "logs/execution_log.csv"
+
+  - step: 3
+    script: "src/analysis/stock_performance_analysis.py"
+    action: "Calculates Cumulative Abnormal Returns (CAR) using Open_Price for all CAR windows and stock features (momentum, volatility). Beta is estimated from Close_Price (industry standard). Stock features are filtered to S&P500 trading dates to exclude weekend/holiday rows introduced by bfill resampling. CAR windows start the day after the reference date (exclusive) to account for filing disclosure lag."
+    requirements:
+      - "data/trades/congress_trades_full.parquet (Output from Step 1)"
+      - "data/stocks/metadata.json (Output from Step 2)"
+      - "data/stocks/parquet_files/ (Output from Step 2)"
+    outputs:
+      - "data/trades/stock_performance_analysis.csv"
+      - "data/trades/stock_performance_analysis.parquet"
+
+  - step: 4
+    script: "src/ingestion/committes_data_extractor.py"
+    action: "Scrapes historical committee membership data from the unitedstates/congress-legislators GitHub repository."
+    requirements:
+      - "Internet access (GitHub API token recommended in script to avoid rate limits)"
+    outputs:
+      - "data/committees/YYYY-MM-DDTHH-MM-SSZ_SHA_committee-membership.yaml"
+
+  - step: 5
+    script: "src/ingestion/get_stock_informations.py"
+    action: "Enriches the stock metadata with Sector and Industry classifications using yahooquery."
+    requirements:
+      - "data/stocks/metadata.json (Output from Step 2)"
+    outputs:
+      - "data/stocks/metadata_enriched.json"
+
+  - step: 6
+    script: "MANUAL STEP"
+    action: "Manually create a mapping file that defines which industries/sectors are relevant to specific congressional committees."
+    requirements:
+      - "User knowledge of committee jurisdictions"
+    outputs:
+      - "config/commette_industry_map.yaml"
+
+  - step: 7
+    script: "src/analysis/industry_matching.py"
+    action: "Integrates all datasets to flag trades where a politician traded stocks within their committee's jurisdiction."
+    requirements:
+      - "data/trades/stock_performance_analysis.parquet (Output from Step 3)"
+      - "data/stocks/metadata_enriched.json (Output from Step 5)"
+      - "data/committees/ (Output from Step 4)"
+      - "config/commette_industry_map.yaml (Output from Step 6)"
+    outputs:
+      - "data/output/politician_trades_enriched.csv"
+      - "data/output/politician_trades_enriched.parquet"
+
+  - step: 8
+    script: "src/ingestion/download_lobbying_data.py"
+    action: "Downloads lobbying disclosure data from QuiverQuant for every ticker in the trade universe. Uses the /historical/lobbying/{ticker} endpoint, which pre-matches LDA lobbying filings to stock tickers. Output is used in Step 9 to create committee-overlap features."
+    requirements:
+      - "config/quiverquant.json (Must contain valid 'Authorization Token')"
+      - "data/output/politician_trades_enriched.parquet (Output from Step 7, for ticker list)"
+    outputs:
+      - "data/lobbying/lobbying_data.parquet"
+
+  - step: 9
+    script: "src/model/model_realized.py"
+    action: "Builds and evaluates XGBoost and LightGBM predictive models for the realized CAR (12m) horizon. Target label is realized_car_hybrid (realized CAR when politician sold within 12m, otherwise 12m CAR). Features include politician skill metrics, committee membership flags, lobbying-committee overlap signals (lobbied_politician_committee_90d, n_lobbied_issues_committee_90d), stock momentum/volatility/beta, and log trade size. Models are optimized for precision via GridSearchCV with time-based train/test split."
+    requirements:
+      - "data/output/politician_trades_enriched.parquet (Output from Step 7)"
+      - "data/lobbying/lobbying_data.parquet (Output from Step 8, optional — features default to 0 if missing)"
+    outputs:
+      - "data/output/xgboost_model_realized.json"
+      - "data/output/xgboost_feature_imp_realized.png"
+      - "data/output/xgboost_cm_realized_thr_{threshold}.png"
+      - "data/output/lightgbm_model_realized.json"
+      - "data/output/lightgbm_feature_imp_realized.png"
+      - "data/output/lightgbm_cm_realized_thr_{threshold}.png"
+      - "data/output/politician_trades_with_realized_car.parquet"
