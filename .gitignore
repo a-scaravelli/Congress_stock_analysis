@@ -17,3 +17,6 @@ venv/
 # Data (large files)
 data/stocks/csv_files/
 stock_data/csv_files/
+
+#app
+app/

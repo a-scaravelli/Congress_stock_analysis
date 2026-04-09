@@ -12,6 +12,7 @@ Output: data/lobbying/lobbying_data.parquet
 
 import json
 import os
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
@@ -22,7 +23,10 @@ TOKEN_FILE = "config/quiverquant.json"
 OUTPUT_PATH = "data/lobbying/lobbying_data.parquet"
 TICKERS_SOURCE = "data/output/politician_trades_enriched.parquet"
 BASE_URL = "https://api.quiverquant.com/beta/historical/lobbying"
-MAX_WORKERS = 20   # concurrent threads — stays well within typical rate limits
+MAX_WORKERS = 1
+RETRY_ATTEMPTS = 3
+RETRY_BACKOFF = 5.0
+REQUEST_DELAY = 1.5
 
 
 def load_api_token(filepath: str) -> str:
@@ -32,23 +36,38 @@ def load_api_token(filepath: str) -> str:
         return json.load(f).get("Authorization Token")
 
 
-def get_unique_tickers() -> list:
+def get_unique_tickers(limit: int = None) -> list:
+    import random
     df = pd.read_parquet(TICKERS_SOURCE)
-    return sorted(df["Ticker"].dropna().unique().tolist())
+    tickers = sorted(df["Ticker"].dropna().unique().tolist())
+    if limit:
+        tickers = random.sample(tickers, min(limit, len(tickers)))
+    return tickers
 
 
 def fetch_one(ticker: str, session: requests.Session) -> list:
-    try:
-        resp = session.get(f"{BASE_URL}/{ticker}", timeout=30)
-        if resp.status_code == 200:
-            data = resp.json()
-            if isinstance(data, list):
-                for rec in data:
-                    rec["Ticker"] = ticker
-                return data
-        return []
-    except Exception:
-        return []
+    time.sleep(REQUEST_DELAY)
+    for attempt in range(RETRY_ATTEMPTS):
+        try:
+            resp = session.get(f"{BASE_URL}/{ticker}", timeout=30)
+            if resp.status_code == 200:
+                data = resp.json()
+                if isinstance(data, list) and len(data) > 0:
+                    for rec in data:
+                        rec["Ticker"] = ticker
+                    return data
+                else:
+                    print(f"  {ticker}: status=200 empty")
+                    return []
+            else:
+                print(f"  {ticker}: status={resp.status_code} | {resp.text[:120]}")
+                if attempt < RETRY_ATTEMPTS - 1:
+                    time.sleep(RETRY_BACKOFF)
+        except Exception as e:
+            print(f"  {ticker}: error={e}")
+            if attempt < RETRY_ATTEMPTS - 1:
+                time.sleep(RETRY_BACKOFF)
+    return []
 
 
 def main():
@@ -71,11 +90,14 @@ def main():
         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
             futures = {pool.submit(fetch_one, t, session): t for t in tickers}
             for fut in as_completed(futures):
+                ticker = futures[fut]
                 records = fut.result()
                 all_records.extend(records)
                 done += 1
-                if done % 200 == 0 or done == n:
-                    print(f"  [{done}/{n}] {len(all_records):,} records so far")
+                if records:
+                    print(f"  [{done}/{n}] {ticker}: {len(records)} records (total {len(all_records):,})")
+                elif done % 100 == 0:
+                    print(f"  [{done}/{n}] ... {len(all_records):,} records so far")
 
     if not all_records:
         print("No lobbying data retrieved. Check API key and tier access.")
